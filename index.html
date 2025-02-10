@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometry Dash Challenges</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+    </style>
+    <script>
+        // Fallback CSV data for local testing
+        const fallbackData = `Unnamed: 0,Name,ID,Creator,Verifier
+1,Lament,114988101,tenkuyuhh,tenkuyuhh
+2,BlUDUFObath,114965788,rush,rush
+3,Fever,114963741,tenkuyuhh,tenkuyuhh
+4,Suffer,111863467,tenkuyuhh,tenkuyuhh
+5,agony,114960048,tenkuyuhh,tenkuyuhh
+6,mangoa,114952534,tenkuyuhh,tenkuyuhh
+7,vsc but ufo,114984854,CoinvesselGD,tenkuyuhh
+8,Mycat sigma boy chal,114984412,tenkuyuhh,tenkuyuhh
+9,spam challenge 1,114952847,tenkuyuhh,tenkuyuhh
+10,average udufopcl level,114935113,MyCat223,MyCat223
+11,TOOMDUDUFOIGDPCLBM,114955327,Codex,Codex
+12,le funky ufo level,114952921,ItsNoobe,ItsNoobe`;
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const csvPath = './data/List Data.csv'; // Path to your CSV file
+
+            fetch(csvPath)
+                .then(response => {
+                    if (!response.ok) throw new Error('Fetch failed');
+                    return response.text();
+                })
+                .then(csvText => {
+                    const data = parseCSV(csvText);
+                    displayData(data);
+                })
+                .catch(error => {
+                    console.warn('Failed to fetch CSV file. Using fallback data.', error);
+                    const data = parseCSV(fallbackData);
+                    displayData(data);
+                });
+        });
+
+        function parseCSV(text) {
+            const rows = text.split('\n').map(row => row.split(','));
+            return rows;
+        }
+
+        function displayData(data) {
+            const tableHead = document.getElementById('tableHead');
+            const tableBody = document.getElementById('tableBody');
+
+            // Clear previous data
+            tableHead.innerHTML = '';
+            tableBody.innerHTML = '';
+
+            // Create table headers
+            const headers = data[0];
+            headers.forEach(header => {
+                const th = document.createElement('th');
+                th.textContent = header.trim();
+                tableHead.appendChild(th);
+            });
+
+            // Create table rows
+            data.slice(1).forEach(row => {
+                const tr = document.createElement('tr');
+                row.forEach(cell => {
+                    const td = document.createElement('td');
+                    td.textContent = cell.trim();
+                    tr.appendChild(td);
+                });
+                tableBody.appendChild(tr);
+            });
+        }
+    </script>
+</head>
+<body>
+    <h1>Hardest Geometry Dash Challenges</h1>
+    <table id="dataTable">
+        <thead>
+            <tr id="tableHead"></tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+    </table>
+</body>
+</html>
