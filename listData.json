@@ -1,4 +1,3 @@
-let data =
 [
     {
         "name": "FATE OF THE STARS",
@@ -8,9 +7,9 @@ let data =
     },
     {
         "name": "BrambleIfItWasGood",
-        "ID": 114998675,
-        "creator": "ashfalcons44",
-        "verifier": "ashfalcons44"
+        "ID": null,
+        "creator": "null",
+        "verifier": "null"
     },
     {
         "name": "Lament",
@@ -85,20 +84,3 @@ let data =
         "verifier": "ItsNoobe"
     }
 ]
-document.getElementById("name1").innerHTML = data[0].name;
-document.getElementById("creator1").innerHTML = data[0].creator;
-document.getElementById("name2").innerHTML = data[1].name;
-document.getElementById("creator2").innerHTML = data[1].creator;
-/*(data[0].)
-let data = [];
-
-async function loadData() {
-    try {
-        const response = await fetch('./listData.json');
-        data = await response.json();
-    } catch (error) {
-        console.error('Error loading JSON:', error);
-    }
-}
-
-loadData();*/
