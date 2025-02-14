@@ -2,9 +2,9 @@ let data =
 [
     {
         "name": "FATE OF THE STARS",
-        "ID": null,
-        "creator": "null",
-        "verifier": "null"
+        "ID": 114176600,
+        "creator": "ZiroTrans",
+        "verifier": "Astatine16"
     },
     {
         "name": "BrambleIfItWasGood",
@@ -85,10 +85,49 @@ let data =
         "verifier": "ItsNoobe"
     }
 ]
+
 document.getElementById("name1").innerHTML = data[0].name;
 document.getElementById("creator1").innerHTML = data[0].creator;
+
 document.getElementById("name2").innerHTML = data[1].name;
 document.getElementById("creator2").innerHTML = data[1].creator;
+
+document.getElementById("name3").innerHTML = data[2].name;
+document.getElementById("creator3").innerHTML = data[2].creator;
+
+document.getElementById("name4").innerHTML = data[3].name;
+document.getElementById("creator4").innerHTML = data[3].creator;
+
+document.getElementById("name5").innerHTML = data[4].name;
+document.getElementById("creator5").innerHTML = data[4].creator;
+
+document.getElementById("name6").innerHTML = data[5].name;
+document.getElementById("creator6").innerHTML = data[5].creator;
+
+document.getElementById("name7").innerHTML = data[6].name;
+document.getElementById("creator7").innerHTML = data[6].creator;
+
+document.getElementById("name8").innerHTML = data[7].name;
+document.getElementById("creator8").innerHTML = data[7].creator;
+
+document.getElementById("name9").innerHTML = data[8].name;
+document.getElementById("creator9").innerHTML = data[8].creator;
+
+document.getElementById("name10").innerHTML = data[9].name;
+document.getElementById("creator10").innerHTML = data[9].creator;
+
+document.getElementById("name11").innerHTML = data[10].name;
+document.getElementById("creator11").innerHTML = data[10].creator;
+
+document.getElementById("name12").innerHTML = data[11].name;
+document.getElementById("creator12").innerHTML = data[11].creator;
+
+document.getElementById("name13").innerHTML = data[12].name;
+document.getElementById("creator13").innerHTML = data[12].creator;
+
+document.getElementById("name14").innerHTML = data[13].name;
+document.getElementById("creator14").innerHTML = data[13].creator;
+
 /*(data[0].)
 let data = [];
 

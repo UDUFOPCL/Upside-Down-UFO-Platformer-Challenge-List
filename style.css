@@ -50,23 +50,25 @@ body {
 	aspect-ratio: 9/2;
 	background-color: hsl(30, 10%, 15%);
 	border-style: solid;
-	border-width: 3px;
-	border-radius: 15px;
+	border-width: 0.25vw;
+	border-radius: 1.25vw;
 	border-color: #8c6443; /*#F6A868*/
 	flex-wrap:nowrap;
 	display: flex;
 	justify-content: left;
-	align-items: center;
-	margin: 20px;
+	align-items:center;
+	margin: 1vw;
 	padding:0px;
 	/*box-shadow:0.3em 0.3em 1em hsla(30, 100%, 50%, 0.1);*/
 }
 .level > h1 {
-	font-size:3.5vw;
-	padding-left: 2vw;
+	font-size:3vw;
+	padding-left: 1.5vw;
+	padding-top: 1vw;
 	font-weight: normal;
 }
 .level > h1 > span {
+	padding-left: 1vw;
 	font-size: 2vw;
 	font-style: italic;
 }
@@ -74,6 +76,6 @@ body {
 	aspect-ratio: 16/9;
 	width: 30vw;
 	margin-left: 1vw;	
-	border-radius: 10px;
+	border-radius: 0.85vw;
 	box-shadow: 0vw 0vw 15vw 0vw hsla(30, 100%, 50%, 0.2);
 	}
