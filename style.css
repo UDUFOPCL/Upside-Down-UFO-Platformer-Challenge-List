@@ -5,26 +5,44 @@ body {
 	background-color: hsl(30, 25%, 9%);
 	margin: 0px;
 	padding: 0px;
-	color: white;
+	color: hsl(30, 30%, 90%);
 	overflow-x: hidden;
-	align-items: flex-start;
+	display: flex;
+	align-items:flex-start;
+	justify-items: center;
 }
 .header {
-	position:absolute;
+	position:fixed;
 	flex-direction: row;
-	background-color: hsl(30, 35%, 4%); /*#120d08*/
+	display:flex;
+	background-color: #0e0a07; /*#120d08*/
 	justify-content: center;
-	align-items: center;
-	color: white;
+	align-items:center;
+	color: hsl(30, 30%, 90%);
+	box-sizing: border-box;
 	margin: 0px;
-	padding: 0px;
+	padding-left: auto;
+	padding-right: auto;
 	width:100%;
-	height: 70px;
+	height: 5vw;
+}
+.header > h1 {
+	margin-left:auto;
+	margin-right: 18vw;
+	font-size:2.5vw;
+	user-select: none;
+}
+.header > a > img {
+	width: 3.5vw;
+	aspect-ratio: 1/1;
+	margin-right: auto;
+	margin-left: 2.5vw;
+	margin-right:.5vw;
 }
 .main {
 	flex-direction: column;
 	margin: 0rem;
-	justify-content:start;
+	justify-items:start;
 	align-items: center;
 	display: flex;
 	height: 100vh;
@@ -34,10 +52,10 @@ body {
 	flex-direction: column;
 	display: flex;
 	background-color: #00000000;
-	justify-content: space-evenly;
+	justify-items: space-evenly;
 	align-items: center;
 	color: hsl(30, 30%, 90%);
-	margin: 70px;
+	margin: 5vw;
 	padding: 0px;
 	width: 90%;
 	height: inf;
@@ -48,18 +66,18 @@ body {
 	cursor: pointer;;
 	width: 95%;
 	aspect-ratio: 9/2;
-	background-color: hsl(30, 10%, 15%);
+	background-color: #2a2622;
 	border-style: solid;
 	border-width: 0.25vw;
 	border-radius: 1.25vw;
-	border-color: #8c6443; /*#F6A868*/
+	border-color: hsl(30, 8%, 20%); /*#8c6443 #F6A868*/
 	flex-wrap:nowrap;
 	display: flex;
-	justify-content: left;
+	justify-items: left;
 	align-items:center;
 	margin: 1vw;
 	padding:0px;
-	/*box-shadow:0.3em 0.3em 1em hsla(30, 100%, 50%, 0.1);*/
+	box-shadow:0vw 0vw 1.5vw 1.8vw hsla(27, 29%, 4%, 0.6);
 }
 .level > h1 {
 	font-size:3vw;
@@ -72,10 +90,25 @@ body {
 	font-size: 2vw;
 	font-style: italic;
 }
-.level > img {
+.level > img{
 	aspect-ratio: 16/9;
 	width: 30vw;
 	margin-left: 1vw;	
 	border-radius: 0.85vw;
 	box-shadow: 0vw 0vw 15vw 0vw hsla(30, 100%, 50%, 0.2);
-	}
+}
+/*.level > div {
+	justify-self: flex-start;
+	align-self: flex-start;
+	margin: 0px;
+	padding: 0px;
+	
+}
+.copy {
+	width: 2vw;
+	height: 2vw;
+	margin-right: 1vw;
+}
+.level.div :hover {
+	translate: 100px;
+}*/

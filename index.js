@@ -73,16 +73,16 @@ let data =
         "verifier": "MyCat223"
     },
     {
-        "name": "TOOMDUDUFOIGDPCLBM",
-        "ID": 114955327,
-        "creator": "Codex",
-        "verifier": "Codex"
-    },
-    {
         "name": "le funky ufo level",
         "ID": 114952921,
         "creator": "ItsNoobe",
         "verifier": "ItsNoobe"
+    },
+    {
+        "name": "TOOMDUDUFOIGDPCLBM",
+        "ID": 114955327,
+        "creator": "Codex",
+        "verifier": "Codex"
     }
 ]
 
@@ -128,6 +128,10 @@ document.getElementById("creator13").innerHTML = data[12].creator;
 document.getElementById("name14").innerHTML = data[13].name;
 document.getElementById("creator14").innerHTML = data[13].creator;
 
+function copy(ID) {
+    navigator.clipboard.writeText(ID)
+    alert("Copied ID: " + ID)
+}
 /*(data[0].)
 let data = [];
 
