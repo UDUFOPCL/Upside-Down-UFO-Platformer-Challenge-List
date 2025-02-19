@@ -130,7 +130,16 @@ document.getElementById("creator14").innerHTML = data[13].creator;
 
 function copy(ID) {
     navigator.clipboard.writeText(ID)
-    alert("Copied ID: " + ID)
+    document.getElementById("alertText").innerHTML = ("Copied ID: " + ID);
+    document.getElementById("alert").classList.remove("hide")
+    console.log("ID Showing")
+    setTimeout(show, 100)
+    
+
+}
+function show() {
+    document.getElementById("alert").classList.add("hide")
+    console.log("ID Vanishing")
 }
 /*(data[0].)
 let data = [];

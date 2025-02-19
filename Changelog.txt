@@ -1,0 +1,22 @@
+February 13, 2025: Initial Release
+    Added basic list
+    Added level names
+    Added creator names
+    Added placeholder thumbnails
+    Added placeholder header
+    Added clean style
+
+February 14, 2025: Formating
+    Added website header
+    Added level thumbnails
+    Added ID copying
+    Tweaked visual style
+    Window size bugfixes
+
+February 19, 2025: ID Copying
+    Added changelog
+    Added dedicated "Copy ID" button
+    Added integrated "ID Copied" confirmation popup
+    Added website credit to Coinvessel
+    More window size bugfixes
+February ??, 2025:
