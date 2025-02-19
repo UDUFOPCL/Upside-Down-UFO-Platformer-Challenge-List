@@ -1,4 +1,4 @@
-February 13, 2025: Initial Release
+February 13, 2025: V1.0- Initial Release
     Added basic list
     Added level names
     Added creator names
@@ -6,17 +6,22 @@ February 13, 2025: Initial Release
     Added placeholder header
     Added clean style
 
-February 14, 2025: Formating
+February 14, 2025: V1.1- Formating
     Added website header
     Added level thumbnails
     Added ID copying
     Tweaked visual style
     Window size bugfixes
 
-February 19, 2025: ID Copying
+February 19, 2025: V1.2- ID Copying
     Added changelog
     Added dedicated "Copy ID" button
     Added integrated "ID Copied" confirmation popup
     Added website credit to Coinvessel
     More window size bugfixes
-February ??, 2025:
+
+February 19, 2025: V1.3- List Changes & Fastest Times
+    Added zimbabwe by TheNewCodex at #13 above le funky ufo level and below average udufopcl level
+    Added fastest time for levels
+    Added link to join the discord
+

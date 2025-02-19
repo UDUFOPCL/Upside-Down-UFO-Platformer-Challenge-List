@@ -29,7 +29,7 @@ body {
 }
 .header > h1 {
 	margin-left:auto;
-	margin-right: 18vw;
+	margin-right: auto;
 	font-size:2.5vw;
 	user-select: none;
 }
@@ -38,7 +38,7 @@ body {
 	aspect-ratio: 1/1;
 	margin-right: auto;
 	margin-left: 2.5vw;
-	margin-right:.5vw;
+	margin-right:2.5vw;
 }
 header {
 	position: fixed;
@@ -81,6 +81,7 @@ header {
 }
 
 .level {
+	position:relative;
 	font-size: 0px;
 	width: 85vw;
 	aspect-ratio: 9/2;
@@ -100,14 +101,14 @@ header {
 	user-select:none;
 }
 .level > h1 {
-	font-size:3vw;
+	font-size:2.5vw;
 	padding-left: 1.5vw;
 	padding-top: 1vw;
 	font-weight: normal;
 }
 .level > h1 > span {
 	padding-left: 1vw;
-	font-size: 2vw;
+	font-size: 1.75vw;
 	font-style: italic;
 }
 .level > img{
@@ -143,8 +144,10 @@ header {
 .level > span {
 	position:absolute;
 	font-size: 2vw;
-	right:8vw;
-	top:21vw;
+	right:2vw;
+	top:15vw;
+	z-index: 1;
+	font-family:monospace;
 }
 footer {
 	font-size: 2vw;
