@@ -1,5 +1,4 @@
-//This works!
-let data =
+console.log(data)
 [
     //1
     {
