@@ -1,3 +1,4 @@
+/* The main container for the website */
 body {
 	font-family: Verdana, sans-serif;
 	height: 100vh;
@@ -11,6 +12,8 @@ body {
 	align-items:flex-start;
 	justify-items: center;
 }
+
+/* Top banner */
 .header {
 	position:fixed;
 	flex-direction: row;
@@ -27,12 +30,16 @@ body {
 	height: 5vw;
 	z-index: 3;
 }
+
+/* Title text in top banner */
 .header > h1 {
 	margin-left:auto;
 	margin-right: auto;
 	font-size:2.5vw;
 	user-select: none;
 }
+
+/* Images links in the top banner like "Home" or "Discord" */
 .header > a > img {
 	width: 3.5vw;
 	aspect-ratio: 1/1;
@@ -40,11 +47,13 @@ body {
 	margin-left: 2.5vw;
 	margin-right:2.5vw;
 }
+
+/* Copied ID popup */
 header {
 	position: fixed;
 	align-self: center;
 	text-align: center;
-	height: 10vh;
+	height: 6vw;
 	width: 100vw;
 	font-size: 2vw;
 	line-height:0;
@@ -54,10 +63,14 @@ header {
 	pointer-events: none;
 	text-align: center;
 }
+
+/* Hides the Copied ID popup when applied */
 .hide {
 	opacity: 0;
 	transition: opacity 1s ease;
 }
+
+/* Everything except Top Banner and Copied ID popup */
 .main {
 	flex-direction: column;
 	margin: 0rem;
@@ -66,7 +79,9 @@ header {
 	display: flex;
 	height: 100vh;
 	width: 100vw;
-}	
+}
+
+/* The list of level containers */
 .list-container {
 	flex-direction: column;
 	display: flex;
@@ -80,6 +95,7 @@ header {
 	height: inf;
 }
 
+/* All the information for a level */
 .level {
 	position:relative;
 	font-size: 0px;
@@ -100,17 +116,8 @@ header {
 	max-height: min-content;
 	user-select:none;
 }
-.level > h1 {
-	font-size:2.5vw;
-	padding-left: 1.5vw;
-	padding-top: 1vw;
-	font-weight: normal;
-}
-.level > h1 > span {
-	padding-left: 1vw;
-	font-size: 1.75vw;
-	font-style: italic;
-}
+
+/* Image for the level */
 .level > img{
 	aspect-ratio: 16/9;
 	width: 30vw;
@@ -119,6 +126,23 @@ header {
 	box-shadow: 0vw 0vw 15vw 0vw hsla(30, 100%, 50%, 0.2);
 	background-color: rgb(0, 0, 0);
 }
+
+/* Name and creator of the level */
+.level > h1 {
+	font-size:2.5vw;
+	padding-left: 1.5vw;
+	padding-top: 1vw;
+	font-weight: normal;
+}
+
+/* Creator of the level */
+.level > h1 > span {
+	padding-left: 1vw;
+	font-size: 1.75vw;
+	font-style: italic;
+}
+
+/* Copy ID button */
 .level > div {
 	cursor: pointer;
 	margin: 0px;
@@ -129,9 +153,12 @@ header {
 	z-index: 2;
 }
 
+/* Scales Copy ID button when hovered by mouse */
 .level > div :hover {
 	scale: 1.3;
 }
+
+/* Image for Copy ID button */
 .copy {
 	width: 2.5vw;
 	height: 2.5vw;
@@ -141,6 +168,8 @@ header {
 	transition-property: scale;
 	transition-timing-function:cubic-bezier(1, 0, 0, 1);
 }
+
+/* Fastest completion time */
 .level > span {
 	position:absolute;
 	font-size: 2vw;
@@ -149,11 +178,15 @@ header {
 	z-index: 1;
 	font-family:monospace;
 }
+
+/* Self promo */
 footer {
 	font-size: 2vw;
 	line-height: 0;
 	padding-bottom:3vw;
 }
+
+/* Fancy self promo link */
 a {
 	text-decoration: none;
 	color:inherit;

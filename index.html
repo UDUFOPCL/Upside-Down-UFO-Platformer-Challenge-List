@@ -7,15 +7,20 @@
 </head>
 
 <body>
+	<!-- Top banner -->
 	<div class="header">
 		<a href="index.html"><img src="favicon.png" alt="UFO" title="Home"></a>
 		<h1>Upside Down UFO Platformer Challenge List</h1>
 		<a href="https://discord.gg/QahCfq4e8Y" target="_blank"><img src="discordW.png" alt="Discord" title="Discord"></a>
 	</div>
+
+	<!-- Copy ID popup -->
 	<header id="alert" class="hide" >
 		<h1 id="alertText">Copied ID</h1>
 	</header>
-	<div class="main"> <!--<span id="num1"></span>-->
+
+	<!-- The actual list -->
+	<div class="main">
 		<div class="list-container">
 			<!-- 1 -->
 			<div class="level">
@@ -136,10 +141,56 @@
 				<div><img onclick="copy(data[15].ID)" title="Copy ID" class="copy" src="copyW.png" alt="copy"></div>
 				<span id="time15">time</span>
 			</div>
-		</div>
+
+			<!-- 16 -->
+			<div class="level">
+				<img id="image16" loading="lazy" src="" width="0px" alt="picture">
+				<h1>#16 – <b id="name16">name</b><br><span id="creator16">creator</span></h1>
+				<div><img onclick="copy(data[16].ID)" title="Copy ID" class="copy" src="copyW.png" alt="copy"></div>
+				<span id="time16">time</span>
+			</div>
+
+			<!-- 17 -->
+			<div class="level">
+				<img id="image17" loading="lazy" src="" width="0px" alt="picture">
+				<h1>#17 – <b id="name17">name</b><br><span id="creator17">creator</span></h1>
+				<div><img onclick="copy(data[17].ID)" title="Copy ID" class="copy" src="copyW.png" alt="copy"></div>
+				<span id="time17">time</span>
+			</div>
+
+			<!-- 18 -->
+			<div class="level">
+				<img id="image18" loading="lazy" src="" width="0px" alt="picture">
+				<h1>#18 – <b id="name18">name</b><br><span id="creator18">creator</span></h1>
+				<div><img onclick="copy(data[18].ID)" title="Copy ID" class="copy" src="copyW.png" alt="copy"></div>
+				<span id="time18">time</span>
+			</div>
+
+			<!-- 19 -->
+			<div class="level">
+				<img id="image19" loading="lazy" src="" width="0px" alt="picture">
+				<h1>#19 – <b id="name19">name</b><br><span id="creator19">creator</span></h1>
+				<div><img onclick="copy(data[19].ID)" title="Copy ID" class="copy" src="copyW.png" alt="copy"></div>
+				<span id="time19">time</span>
+			</div>
+
+			<!-- 20 -->
+			<div class="level">
+				<img id="image20" loading="lazy" src="" width="0px" alt="picture">
+				<h1>#20 – <b id="name20">name</b><br><span id="creator20">creator</span></h1>
+				<div><img onclick="copy(data[20].ID)" title="Copy ID" class="copy" src="copyW.png" alt="copy"></div>
+				<span id="time20">time</span>
+			</div>
+
+		<!-- Self promo :) -->
+		<br><br>
 		<footer>Website made by <a href="https://www.youtube.com/@CoinvesselGD/" target="_blank"><b>CoinvesselGD</b></a></footer>
 	</div>
+
+	<!-- Imports the list information from listData.js -->
 	<script src="listData.js"></script>
+
+	<!-- Imports the script that makes this whole thing work -->
 	<script src="index.js"></script> 
 </body>
 </html>
