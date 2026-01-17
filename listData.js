@@ -14,7 +14,7 @@ Level Template:
 
     # : {
         name : '',
-        image : 'images/',
+        image : 'images/.',
         ID : ,
         creator : '',
         verifier : '',
@@ -26,7 +26,7 @@ Level Template:
 const data = {
     1 : {
         name : 'FALLEN ANGEL',
-        image : 'images/fallenAngel.webp',
+        image : 'images/.fallenAngel.webp',
         ID : 131366052,
         creator : 'Astatine16',
         verifier : 'Astatine16',
@@ -35,7 +35,7 @@ const data = {
     },
     2 : {
         name : 'BrambleIfItWasGood',
-        image : 'images/barmbleGood.webp',
+        image : 'images/.barmbleGood.webp',
         ID : 114998675,
         creator : 'ashfalcons44',
         verifier : 'ashfalcons44',
@@ -44,7 +44,7 @@ const data = {
     },
     3 : {
         name : 'noobedufopc ultra',
-        image : 'images/noobedufopcUltra.webp',
+        image : 'images/.noobedufopcUltra.webp',
         ID : 131546166,
         creator : 'ItsNoobe',
         verifier : 'ItsNoobe',
@@ -53,7 +53,7 @@ const data = {
     },
     4 : {
         name : 'Lament',
-        image : 'images/lament.webp',
+        image : 'images/.lament.webp',
         ID : 114988101,
         creator : 'tenkuyuhh',
         verifier : 'tenkuyuhh',
@@ -62,7 +62,7 @@ const data = {
     },
     5 : {
         name : 'BlUDUFObath',
-        image : 'images/bath.webp',
+        image : 'images/.bath.webp',
         ID : 114965788,
         creator : 'rush',
         verifier : 'rush',
@@ -71,7 +71,7 @@ const data = {
     },
     6 : {
         name : 'run from emoji9',
-        image : 'images/runFromEmoji9.webp',
+        image : 'images/.runFromEmoji9.webp',
         ID : 119771687,
         creator : 'ItsNoobe',
         verifier : 'ItsNoobe',
@@ -80,7 +80,7 @@ const data = {
     },
     7 : {
         name : 'launchpad ufobyrinth',
-        image : 'images/launchpad.webp',
+        image : 'images/.launchpad.webp',
         ID : 127331837,
         creator : 'ItsNoobe',
         verifier : 'ItsNoobe',
@@ -89,7 +89,7 @@ const data = {
     },
     8 : {
         name : 'Fever',
-        image : 'images/fever.webp',
+        image : 'images/.fever.webp',
         ID : 114963741,
         creator : 'tenkuyuhh',
         verifier : 'tenkuyuhh',
@@ -98,7 +98,7 @@ const data = {
     },
     9 : {
         name : 'Suffer',
-        image : 'images/suffer.webp',
+        image : 'images/.suffer.webp',
         ID : 111863467,
         creator : 'tenkuyuhh',
         verifier : 'tenkuyuhh',
@@ -107,7 +107,7 @@ const data = {
     },
     10 : {
         name : 'agony',
-        image : 'images/agony.webp',
+        image : 'images/.agony.webp',
         ID : 114960048,
         creator : 'tenkuyuhh',
         verifier : 'tenkuyuhh',
@@ -116,7 +116,7 @@ const data = {
     },
     11 : {
         name : 'mangoa',
-        image : 'images/mangoa.webp',
+        image : 'images/.mangoa.webp',
         ID : 114952534,
         creator : 'tenkuyuhh',
         verifier : 'tenkuyuhh',
@@ -125,7 +125,7 @@ const data = {
     },
     12 : {
         name : 'VSC but ufo',
-        image : 'images/vscUfo.webp',
+        image : 'images/.vscUfo.webp',
         ID : 114984854,
         creator : 'CoinvesselGD',
         verifier : 'tenkuyuhh',
@@ -134,7 +134,7 @@ const data = {
     },
     13 : {
         name : 'Mycat sigma boy chal',
-        image : 'images/sigmaBoy.webp',
+        image : 'images/.sigmaBoy.webp',
         ID : 114984412,
         creator : 'tenkuyuhh',
         verifier : 'tenkuyuhh',
@@ -143,7 +143,7 @@ const data = {
     },
     14 : {
         name : 'spam challenge 1',
-        image : 'images/spam1.webp',
+        image : 'images/.spam1.webp',
         ID : 114952847,
         creator : 'tenkuyuhh',
         verifier : 'tenkuyuhh',
@@ -152,7 +152,7 @@ const data = {
     },
     15 : {
         name : 'RENEWAL',
-        image : 'images/renewal.webp',
+        image : 'images/.renewal.webp',
         ID : 118612227,
         creator : 'ItsNoobe',
         verifier : 'ItsNoobe',
@@ -161,7 +161,7 @@ const data = {
     },
     16 : {
         name : 'UFO Funk',
-        image : 'images/ufoFunk.webp',
+        image : 'images/.ufoFunk.webp',
         ID : 124325607,
         creator : 'CoinvesselGD',
         verifier : 'Astatine16',
@@ -170,7 +170,7 @@ const data = {
     },
     17 : {
         name : 'average udufopcl level',
-        image : 'images/average.webp',
+        image : 'images/.average.webp',
         ID : 114935113,
         creator : 'MyCat223',
         verifier : 'MyCat223',
@@ -179,7 +179,7 @@ const data = {
     },
     18 : {
         name : 'zimbabwe',
-        image : 'images/zimbabwe.webp',
+        image : 'images/.zimbabwe.webp',
         ID : 115127631,
         creator : 'TheNewCodex',
         verifier : 'TheNewCodex',
@@ -188,7 +188,7 @@ const data = {
     },
     19 : {
         name : 'TOOMDUDUFOIGDPCLBM',
-        image : 'images/toomdud.webp',
+        image : 'images/.toomdud.webp',
         ID : 114955327,
         creator : 'Codex',
         verifier : 'Codex',
@@ -197,7 +197,7 @@ const data = {
     },
     20 : {
         name : 'le funky ufo level',
-        image : 'images/leFunky.webp',
+        image : 'images/.leFunky.webp',
         ID : 114952921,
         creator : 'ItsNoobe',
         verifier : 'ItsNoobe',
