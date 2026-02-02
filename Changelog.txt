@@ -21,14 +21,19 @@ February 19, 2025: Version 1.2.0 - ID Copying
     More window size bugfixes
 
 February 19, 2025: Version 1.3.0 - List Changes & Fastest Times
-    Added zimbabwe by TheNewCodex at #13 above le funky ufo level and below average udufopcl level
+    Placed zimbabwe by TheNewCodex at #13 above le funky ufo level and below average udufopcl level
     Added fastest time for levels
     Added link to join the discord
 
 January 16, 2026: Version 2.0.0 - Re-Release!
     Basically re-did how level data is stored and displayed, making it easier to edit
-    Added a ton of levels (not gonna list them all, but there's like 20 now :o)
+    Placed a ton of levels (not gonna list them all, but there's like 20 now :o)
     "UDUFOPCL is so back" - Coinvessel <3
 
 January 31, 2026: Version 2.0.1 - List Change
-    Added black man chamber at #15, above Renewal and below spam challenge 1
+    Placed black man chamber at #15 above Renewal and below spam challenge 1
+
+February 1, 2026: Version 2.0.2
+    Placed NullU at #20 below zimbabwe and above TOOMDUDUFOIGDPCLBM
+    Moved le funky ufo lvl to #19 (from #22) pushing NullU uot of the top 20
+    Placed AntiAntigravity at #13 above mycat sigma boy chal and below vsc but ufo
