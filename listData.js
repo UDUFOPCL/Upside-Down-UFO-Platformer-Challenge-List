@@ -25,6 +25,15 @@ Level Template:
 */
 const data = {
     1 : {
+        name : 'GODHANDUFO',
+        image : './Images/godHandUFO.webp',
+        ID : 132684908,
+        creator : 'Astatine16 & c0smic',
+        verifier : 'Astatine16',
+        recorder : 'Astatine16',
+        time : '1:09.429'
+    },
+    2 : {
         name : 'FALLEN ANGEL',
         image : './Images/fallenAngel.webp',
         ID : 131366052,
@@ -33,7 +42,7 @@ const data = {
         recorder : 'Astatine16',
         time : '18.599'
     },
-    2 : {
+    3 : {
         name : 'BrambleIfItWasGood',
         image : './Images/barmbleGood.webp',
         ID : 114998675,
@@ -42,7 +51,7 @@ const data = {
         recorder : 'ashfalcons44',
         time : '13.725'
     },
-    3 : {
+    4 : {
         name : 'noobedufopc ultra',
         image : './Images/noobedufopcUltra.webp',
         ID : 131546166,
@@ -51,7 +60,7 @@ const data = {
         recorder : 'ItsNoobe',
         time : '39.645'
     },
-    4 : {
+    5 : {
         name : 'Lament',
         image : './Images/lament.webp',
         ID : 114988101,
@@ -60,7 +69,7 @@ const data = {
         recorder : 'tenkuyuhh',
         time : '22.520'
     },
-    5 : {
+    6 : {
         name : 'BlUDUFObath',
         image : './Images/bath.webp',
         ID : 114965788,
@@ -69,7 +78,7 @@ const data = {
         recorder : 'rush',
         time : '2:45.383'
     },
-    6 : {
+    7 : {
         name : 'run from emoji9',
         image : './Images/runFromEmoji9.webp',
         ID : 119771687,
@@ -78,7 +87,7 @@ const data = {
         recorder : 'ItsNoobe',
         time : '19.066'
     },
-    7 : {
+    8 : {
         name : 'launchpad ufobyrinth',
         image : './Images/launchpad.webp',
         ID : 127331837,
@@ -87,7 +96,7 @@ const data = {
         recorder : 'ItsNoobe',
         time : '2.712'
     },
-    8 : {
+    9 : {
         name : 'Fever',
         image : './Images/fever.webp',
         ID : 114963741,
@@ -96,7 +105,7 @@ const data = {
         recorder : 'tenkuyuhh',
         time : '17.400'
     },
-    9 : {
+    10 : {
         name : 'Suffer',
         image : './Images/suffer.webp',
         ID : 111863467,
@@ -105,7 +114,7 @@ const data = {
         recorder : 'tenkuyuhh',
         time : '21.912'
     },
-    10 : {
+    11 : {
         name : 'agony',
         image : './Images/agony.webp',
         ID : 114960048,
@@ -114,7 +123,7 @@ const data = {
         recorder : 'tenkuyuhh',
         time : '19.166'
     },
-    11 : {
+    12 : {
         name : 'mangoa',
         image : './Images/mangoa.webp',
         ID : 114952534,
@@ -123,7 +132,7 @@ const data = {
         recorder : 'MyCat223',
         time : '15.812'
     },
-    12 : {
+    13 : {
         name : 'VSC but ufo',
         image : './Images/vscUfo.webp',
         ID : 114984854,
@@ -132,7 +141,7 @@ const data = {
         recorder : 'tenkuyuhh',
         time : '35.791'
     },
-    13 : {
+    14 : {
         name : 'AntiAntigravity',
         image : './Images/antiAntigravity.webp',
         ID : 132621790,
@@ -141,7 +150,7 @@ const data = {
         recorder : 'MyCat223',
         time : '38.854'
     },
-    14 : {
+    15 : {
         name : 'Mycat sigma boy chal',
         image : './Images/sigmaBoy.webp',
         ID : 114984412,
@@ -150,7 +159,7 @@ const data = {
         recorder : 'tenkuyuhh',
         time : '17.754'
     },
-    15 : {
+    16 : {
         name : 'spam challenge 1',
         image : './Images/spam1.webp',
         ID : 114952847,
@@ -159,7 +168,7 @@ const data = {
         recorder : 'tenkuyuhh',
         time : '20.091'
     },
-    16 : {
+    17 : {
         name : 'black man chamber',
         image : './Images/blackMan.webp',
         ID : 132518590,
@@ -168,7 +177,7 @@ const data = {
         recorder : 'ItsNoobe',
         time : '35.029'
     },
-    17 : {
+    18 : {
         name : 'RENEWAL',
         image : './Images/renewal.webp',
         ID : 118612227,
@@ -177,7 +186,7 @@ const data = {
         recorder : 'ItsNoobe',
         time : '29.641'
     },
-    18 : {
+    19 : {
         name : 'UFO Funk',
         image : './Images/ufoFunk.webp',
         ID : 124325607,
@@ -186,7 +195,7 @@ const data = {
         recorder : 'Astatine16',
         time : '14.000'
     },
-    19 : {
+    20 : {
         name : 'average udufopcl level',
         image : './Images/average.webp',
         ID : 114935113,
@@ -195,7 +204,7 @@ const data = {
         recorder : 'MyCat223',
         time : '37.762'
     },
-    20 : {
+    21 : {
         name : 'le funky ufo level',
         image : './Images/leFunky.webp',
         ID : 114952921,
@@ -204,7 +213,7 @@ const data = {
         recorder : 'rush',
         time : '29.770'
     },
-    21 : {
+    22 : {
         name : 'zimbabwe',
         image : './Images/zimbabwe.webp',
         ID : 115127631,
@@ -213,7 +222,7 @@ const data = {
         recorder : 'TheNewCodex',
         time : '9.166'
     },
-    22 : {
+    23 : {
         name : 'NullU',
         image : './Images/nullU.webp',
         ID : 132592367,
@@ -222,7 +231,7 @@ const data = {
         recorder : 'ItsNoobe',
         time : '26.574'
     },
-    23 : {
+    24 : {
         name : 'TOOMDUDUFOIGDPCLBM',
         image : './Images/toomdud.webp',
         ID : 114955327,
