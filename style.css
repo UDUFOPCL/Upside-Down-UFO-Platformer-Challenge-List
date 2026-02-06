@@ -1,3 +1,28 @@
+/* Blacks out screen for loading */
+.loading {
+	background-color: black;
+	width: 100vw;
+	height: 100vh;
+	font-size: 3vw;
+	text-align: center;
+	justify-content: center;
+	align-content: center;
+}
+
+/* Little spinning animation for loading screen :) */
+.spin {
+	width: 8vw;
+	aspect-ratio: 1/1;
+	margin: 3vw;
+    animation:spin 3s linear infinite;
+}
+
+/* Animates the spinning thingy for loading screen */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
 /* The main container for the website */
 body {
 	font-family: Verdana, sans-serif;
@@ -95,6 +120,19 @@ header {
 	height: inf;
 }
 
+/* New div to contain level so I can scale it */
+.card {
+	transition-duration: 1s;
+	transition-property: scale;
+	transition-timing-function: cubic-bezier(1, 0, 0, 1);
+}
+
+/* Scales level card up a bit when cursor hovers over it. */
+/* NOTE: Was problematic in testing, so I may end up removing this in the future */
+.card :hover {
+	scale: 1.01;
+}
+
 /* All the information for a level */
 .level {
 	position:relative;
@@ -115,6 +153,11 @@ header {
 	box-shadow:0vw 0vw 1.5vw 1.8vw hsla(27, 29%, 4%, 0.6);
 	max-height: min-content;
 	user-select:none;
+}
+
+/* Makes it so that the content inside the level card won't scale up when you hover over individual elements (level name, image, etc.) */
+.level :hover {
+	scale: 1;
 }
 
 /* Image for the level */
@@ -190,4 +233,147 @@ footer {
 a {
 	text-decoration: none;
 	color:inherit;
+}
+
+/* Container for level page content */
+.info {
+	position:relative;
+	font-size: 1.5vw;
+	width: 75vw;
+	min-height: auto;
+	background-color: #2a2622;
+	border-style: solid;
+	border-width: 0.25vw;
+	border-radius: 1.25vw;
+	border-color: hsl(30, 8%, 20%); /*#8c6443 #F6A868*/
+	flex-wrap:wrap;
+	display:flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-content: center;
+	margin: 1vw;
+	padding-bottom: 5vw;
+	box-shadow:0vw 0vw 1.5vw 1.8vw hsla(27, 29%, 4%, 0.6);
+	max-height: min-content;
+	user-select:none;
+}
+
+/* Level name for level page */
+.info > h1 {
+	text-align: center;
+	font-size:3.5vw;
+	font-weight: bold;
+	margin: 2vw;
+}
+
+/* Level credits for level page */
+.info > h2 {
+	text-align: center;
+	font-size:1.6vw;
+	font-weight: normal;
+	margin: 0.3vw;
+}
+
+/* Horizontal lines for level page */
+.info > hr {
+	align-self: center;
+	width:80%;
+}
+
+/* Level description for level page */
+.info > p {
+	text-align: center;
+	align-self: center;
+	font-size: 1.2vw;
+	font-weight: lighter;
+	font-style: normal;
+	margin: 1vw;
+	width:80%;
+}
+
+/* Embeded video for level page */
+.info > iframe {
+	align-self: center;
+	width: 50vw;
+	aspect-ratio: 16/9;
+	border-width: 0.25vw;
+	border-radius: 1vw;
+	border-color: #FF903D;
+	box-shadow:0vw 0vw 2vw 0vw hsla(26, 100%, 62%, 0.125);
+}
+
+/* "Leaderboard" header above table */
+.info > h3 {
+	font-size: 2vw;
+	text-align: center;
+	margin: 1vw;
+	align-self: center;
+}
+
+/* Leaderboard table */
+table {
+	background-color: #0c0500;
+	border-width: 0.125vw;
+	border-radius: 1vw;
+	border-style:solid;
+	border-color: #0c0500;
+	width: 50vw;
+	margin: 0;
+	padding: 0;
+	align-self: center;
+	user-select:text;
+}
+
+/* Leaderboard header row */
+th {
+	background-color: hsl(26, 5%, 15%);
+	margin: 0;
+	padding: 0.5vw;
+	font-size: 1.5vw;
+}
+
+/* Formats individual table cells to make it a little nicer */
+.topLeft {
+	border-top-left-radius: 1vw;
+}
+.topRight {
+	border-top-right-radius: 1vw;
+}
+.bottomRight {
+	border-bottom-right-radius: 1vw;
+}
+.bottomTime {
+	font-family: monospace;
+	border-bottom-right-radius: 1vw;
+}
+.bottomPos {
+	border-bottom-left-radius: 1vw;
+	text-align: right;
+}
+
+/* Leaderboard table body rows */
+tbody {
+	background-color: hsl(26, 20%, 20%);
+	margin: 0;
+	padding: 0;
+}
+
+/* Table cell */
+td {
+	border-width: 1px;
+	border-radius: 0vw;
+	border-color: #00000000;
+	margin: 0;
+	padding-left: 0.5vw;
+	border-style:solid;
+}
+
+/* The index of the record (The leftmost row with the number) */
+.timePosition {
+	text-align: right;
+}
+
+/* Changes the font of the time to monospace */
+.timeNumber {
+	font-family: monospace;
 }

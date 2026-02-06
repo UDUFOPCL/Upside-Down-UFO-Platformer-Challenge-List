@@ -41,7 +41,18 @@ February 1, 2026: Version 2.0.2 - List Placements
 February 2, 2026: Version 2.0.3 - List Placement (woah new top 1)
     Placed GODHANDUFO at #1 pushing BlUDUFObath out of the top 5 and agony out of the top 10
 
+February 6, 2026: Version 3.0.0 - Level Pages & Dynamic Content
+    Added subpages for each level with a video, leaderboard, and other info
+    Level cards on the home page now are dynamically displayed based off listData.js (had to do manually before)
+    Added scale animation when hover over level on home page
+    Fastest time on level card now displays based on #1 fastest time
+    Placed WIGGLECORE at #19 below Renewal and above UFO Funk
+    Placed big yahu challenge x at #17 above black man chamber and below spam challenge 1
+    Placed DOG MUNCHER CORRIDOR at #19 above Renewal and below black man chamber
+
 To do:
+    Rules/About Page
     Upcoming levels
     Open verifications
     Skillsets
+    "Want to submit a record for the leaderboard? Join our Discord!" under leaderboard
