@@ -126,12 +126,18 @@ const data = {
         verifier : 'tenkuyuhh',
         times : {
             1 : {
+                name : 'Astatine16',
+                time : '10.654',
+                video : 'https://www.youtube.com/watch?v=41ZxuByDxVo',
+                linkText : 'YouTube',
+            },
+            2 : {
                 name : 'tenkuyuhh',
                 time : '22.520',
                 video : '',
                 linkText : '',
             },
-            2 : {
+            3 : {
                 name : 'yesimrush',
                 time : '31.200',
                 video : '',
@@ -581,4 +587,5 @@ const data = {
     13. VSC but ufo
     15. Mycat sigma boy chal
     16. spam challenge 1
+
 */
