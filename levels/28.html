@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Upside Down UFO Platformer Challenge List</title>
+	<link rel="icon" href="../favicon.png" type="image/x-icon" sizes=”32x32″>
+	<link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+	<!-- Top banner -->
+	<div class="header">
+		<a href="../index.html"><img src="../favicon.png" alt="UFO" title="Home"></a>
+		<h1>Upside Down UFO Platformer Challenge List</h1>
+		<a href="https://discord.gg/QahCfq4e8Y" target="_blank"><img src="../discordW.png" alt="Discord" title="Discord"></a>
+	</div>
+
+	<!-- Copy ID popup -->
+	<header id="alert" class="hide" >
+		<h1 id="alertText">Copied ID</h1>
+	</header>
+
+	<div class="main">
+		<div class="list-container">
+			<div class="info">
+				<h1 id="name">name</h1>
+				<h2 id="people">by creator, verified by verifier</h2>
+				<hr>
+				<p id="description">" description "</p>
+				<hr><br>
+				<iframe src="" id="video"></iframe>
+				<br><br>
+				<h3>Leaderboard</h3>
+				<table>
+					<thead>
+						<tr>
+							<th class="topLeft"></th>
+							<th>Record Holder</th>
+							<th class="topRight">Time</th>
+							<!--<th class="topRight">Video Proof</th>-->
+						</tr>
+					</thead>
+					<tbody id="myTable">
+
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<!-- Self promo :) -->
+		<footer>Website made by <a href="https://www.youtube.com/@CoinvesselGD/" target="_blank"><b>CoinvesselGD</b></a></footer>
+	</div>
+
+	<!-- Imports the list information from listData.js -->
+	<script src="../listData.js"></script>
+	<script>
+		const pos = 28;
+		length = Object.keys(data[pos]['times']).length;
+		
+		document.getElementById('name').innerHTML = "#" + pos + " - " + data[pos]['name']
+		document.getElementById('people').innerHTML = "by " + data[pos]['creator'] + ", verified by " + data[pos]['verifier']
+		document.getElementById('description').innerHTML = '"' + data[pos]['description'] + '"'
+		document.getElementById('video').src = data[pos]['video']
+		
+		buildTable()
+
+		function buildTable() {
+			var table = document.getElementById('myTable')
+			for (var i = 1; i < length+1; i++) {
+				if (i == length) {
+					var row =
+					`<tr>
+						<td class="bottomPos">${i}.</td>
+						<td>${data[pos]['times'][i]['name']}</td>
+						<td class="bottomTime">${data[pos]['times'][i]['time']}</td>
+						
+					</tr>`
+					//<td class="bottomRight"><a href=${data[pos]['times'][i]['video']} target="_blank"><u>${data[pos]['times'][i]['linkText']}</u></a></td>
+				} else {
+					var row =
+					`<tr>
+						<td class="timePosition">${i}.</td>
+						<td>${data[pos]['times'][i]['name']}</td>
+						<td class="timeNumber">${data[pos]['times'][i]['time']}</td>
+
+					</tr>`
+					//<td><a href=${data[pos]['times'][i]['video']} target="_blank"><u>${data[pos]['times'][i]['linkText']}</u></a></td>
+				}
+				table.innerHTML += row
+			}
+		}
+	</script>
+</body>
+</html>
