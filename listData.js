@@ -79,7 +79,7 @@ const data = {
     3 : {
         name : 'BrambleIfItWasGood',
         image : './Images/barmbleGood.webp',
-        video : 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+        video : 'https://www.youtube.com/embed/DTKPphzV4to',
         description : '(No description provided)',
         ID : 114998675,
         creator : 'ashfalcons44',
@@ -88,8 +88,8 @@ const data = {
             1 : {
                 name : 'ashfalcons44',
                 time : '13.725',
-                video : '',
-                linkText : '',
+                video : 'https://www.youtube.com/watch?v=DTKPphzV4to',
+                linkText : 'YouTube',
             },
         },
     },
