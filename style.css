@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 /* Blacks out screen for loading */
 .loading {
 	background-color: black;
@@ -25,7 +27,7 @@
 
 /* The main container for the website */
 body {
-	font-family: Verdana, sans-serif;
+	font-family: poppins, sans-serif;
 	height: 100vh;
 	width: 100vw;
 	background-color: hsl(30, 25%, 9%);
@@ -60,6 +62,7 @@ body {
 .header > h1 {
 	margin-left:auto;
 	margin-right: auto;
+	font-weight: 400;
 	font-size:2.5vw;
 	user-select: none;
 }
@@ -120,6 +123,21 @@ header {
 	height: inf;
 }
 
+.list-container > h1 {
+	align-self: center;
+	text-align: center;
+	font-weight: 300;
+	font-size: 2vw;
+	background-color: #0e0a07;
+	border-color: #FF903D;
+	border-width: 0.2vw;
+	border-radius: 1vw;
+	border-style: solid;
+	padding: 0.5vw;
+	box-shadow:0vw 0vw 1vw 0vw #FF903D;
+	margin: 1vw;
+}
+
 /* New div to contain level so I can scale it */
 .card {
 	transition-duration: 1s;
@@ -160,6 +178,11 @@ header {
 	scale: 1;
 }
 
+.badge {
+	aspect-ratio: 1/1;
+	width: 2.5vw;
+}
+
 /* Image for the level */
 .level > img{
 	aspect-ratio: 16/9;
@@ -175,14 +198,14 @@ header {
 	font-size:2.5vw;
 	padding-left: 1.5vw;
 	padding-top: 1vw;
-	font-weight: normal;
+	font-weight: 400;
 }
 
 /* Creator of the level */
 .level > h1 > span {
 	padding-left: 1vw;
 	font-size: 1.75vw;
-	font-style: italic;
+	font-weight: 300;
 }
 
 /* Copy ID button */
@@ -220,6 +243,7 @@ header {
 	top:15vw;
 	z-index: 1;
 	font-family:monospace;
+	font-weight: 100;
 }
 
 /* Self promo */
@@ -227,12 +251,14 @@ footer {
 	font-size: 2vw;
 	line-height: 0;
 	padding-bottom:3vw;
+	font-weight: 200;
 }
 
 /* Fancy self promo link */
 a {
 	text-decoration: none;
 	color:inherit;
+	font-weight: 400;
 }
 
 /* Container for level page content */
@@ -252,25 +278,25 @@ a {
 	justify-content: flex-start;
 	align-content: center;
 	margin: 1vw;
-	padding-bottom: 5vw;
-	box-shadow:0vw 0vw 1.5vw 1.8vw hsla(27, 29%, 4%, 0.6);
+	padding-bottom: 2vw;
+	box-shadow: 0vw 0vw 1.5vw 1.8vw hsla(27, 29%, 4%, 0.6);
 	max-height: min-content;
-	user-select:none;
+	user-select: text;
 }
 
 /* Level name for level page */
 .info > h1 {
 	text-align: center;
 	font-size:3.5vw;
-	font-weight: bold;
+	font-weight: 700;
 	margin: 2vw;
 }
 
 /* Level credits for level page */
 .info > h2 {
 	text-align: center;
-	font-size:1.6vw;
-	font-weight: normal;
+	font-size: 1.6vw;
+	font-weight: 400;
 	margin: 0.3vw;
 }
 
@@ -285,14 +311,15 @@ a {
 	text-align: center;
 	align-self: center;
 	font-size: 1.2vw;
-	font-weight: lighter;
+	font-weight: 200;
 	font-style: normal;
-	margin: 1vw;
+	margin: 0.5vw;
 	width:80%;
 }
 
 /* Embeded video for level page */
 .info > iframe {
+	margin-top: 1vw;
 	align-self: center;
 	width: 50vw;
 	aspect-ratio: 16/9;
@@ -304,10 +331,11 @@ a {
 
 /* "Leaderboard" header above table */
 .info > h3 {
-	font-size: 2vw;
+	font-size: 2.5vw;
 	text-align: center;
 	margin: 1vw;
 	align-self: center;
+	font-weight: 600;
 }
 
 /* Leaderboard table */
@@ -330,6 +358,7 @@ th {
 	margin: 0;
 	padding: 0.5vw;
 	font-size: 1.5vw;
+	font-weight: 600;
 }
 
 /* Formats individual table cells to make it a little nicer */
@@ -356,6 +385,7 @@ tbody {
 	background-color: hsl(26, 20%, 20%);
 	margin: 0;
 	padding: 0;
+	font-weight: 400;
 }
 
 /* Table cell */
@@ -376,4 +406,92 @@ td {
 /* Changes the font of the time to monospace */
 .timeNumber {
 	font-family: monospace;
+}
+
+.tagContainer {
+	width: fit-content;
+	height: max-content;
+	max-width: 55vw;
+	flex-wrap: wrap;
+	align-self: center;
+	align-items: center;
+	justify-content: center;
+	font-weight: 400;
+	display: flex;
+	flex-direction: row;
+}
+
+.tagContainer > div {
+	display: flex;
+	flex-direction: row;
+	padding: 0.25vw;
+	width:fit-content;
+	height: fit-content;
+	border-radius: 1vw;
+	border-width: .2vw;
+	border-style: solid;
+	margin: 0.25vw;
+	align-items: center;
+	justify-content: center;
+}
+
+.tagContainer > div > img {
+	width: 1.5vw;
+	height: 1.5vw;
+	filter: brightness(0) invert(1);
+	margin-right: 0.5vw;
+	margin-left: 0.2vw;
+
+}
+
+.tagContainer > div > span {
+	font-size: 1.4vw;
+	margin-right: 0.5vw;
+	font-weight: 400;
+}
+
+.spam {
+	background-color: hsla(30, 80%, 50%, 0.125);
+	border-color: hsla(30, 90%, 60%, 0.75);
+	box-shadow:0vw 0vw 0.5vw 0vw inset hsla(30, 85%, 50%, 0.5);
+}
+.memory {
+	background-color: hsl(310, 40%, 50%, 0.125);
+	border-color: hsl(310, 50%, 50%, 0.75);
+	box-shadow:0vw 0vw 0.5vw 0vw inset hsl(310, 60%, 50%, 0.5);
+}
+.precise {
+	background-color: hsl(60, 40%, 50%, 0.125);
+	border-color: hsla(60, 70%, 60%, 0.75);
+	box-shadow:0vw 0vw 0.5vw 0vw inset hsl(60, 70%, 50%, 0.5);
+}
+.gimmick {
+	background-color: hsla(170, 40%, 50%, 0.125);
+	border-color: hsl(170, 50%, 50%, 0.75);
+	box-shadow:0vw 0vw 0.5vw 0vw inset hsl(170, 60%, 50%, 0.5);
+}
+.anti {
+	background-color: hsl(220, 80%, 55%, 0.125);
+	border-color: hsl(220, 75%, 60%, 0.75);
+	box-shadow:0vw 0vw 0.5vw 0vw inset hsla(220, 85%, 50%, 0.5);
+}
+.timed {
+	background-color: hsl(260, 60%, 40%, 0.125);
+	border-color: hsl(260, 70%, 60%, 0.75);
+	box-shadow:0vw 0vw 0.5vw 0vw inset hsl(260, 60%, 50%, 0.5);
+}
+.needle {
+	background-color: hsl(0, 0%, 50%, 0.125);
+	border-color: hsl(0, 0%, 85%, 0.75);
+	box-shadow:0vw 0vw 0.5vw 0vw inset hsl(0, 0%, 70%, 0.5);
+}
+.top1 {
+	background-color: hsl(0, 60%, 30%, 0.125);
+	border-color: hsl(0, 80%, 45%, 0.75);
+	box-shadow:0vw 0vw 0.5vw 0vw inset hsl(0, 80%, 40%, 0.5);
+}
+.ass {
+	background-color: hsl(0, 0%, 20%, 0.125);
+	border-color: hsl(0, 0%, 0%, 0.75);
+	box-shadow:0vw 0vw 0.5vw 0vw inset hsl(0, 0%, 0%, 0.8);
 }

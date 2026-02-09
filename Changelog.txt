@@ -56,9 +56,18 @@ February 7, 2026: Version 3.0.1 - List placements & more
     Future UFO lowered to #25 above zimbabwe and below le funky ufo level
     Added Astatine16 lament completion
 
+February 9, 2026: Version 3.1.0 - Level Tags, Badges, and Cake!
+    Added 1 year anniversary of UDUFOPCL celebration
+    New font: Poppins
+    Added level tags
+    Added ability to add level badges
+    Added level ID on level page
+    Added discord link under leaderboard
+    Placed nonbinaryU at #17 above THE Challenge X and below spam challenge 1
+    Placed jimbabwe 31 jaleng at #29 above SuperAwesomeIxyWorld and below NullU
+
 To do:
     Rules/About Page
     Upcoming levels
     Open verifications
-    Skillsets
-    "Want to submit a record for the leaderboard? Join our Discord!" under leaderboard
+    Skillsets (kinda done)

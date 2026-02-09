@@ -23,7 +23,7 @@ function buildList() {
             <div class="card">
                 <div class="level">
     				<img loading="lazy" src="${data[i]['image']}" width="0px" alt= "picture">
-	    			<h1>#${i} - <a href="./levels/${i}.html" target="_self"><b>${data[i]['name']}</b></a><br><span>${data[i]['creator']}</span></h1>
+	    			<h1>#${i} - <a href="./levels/${i}.html" target="_self"><b>${data[i]['name']}</b></a> <img title="${data[i]['badgeInfo']}" class="badge" src="${data[i]['badge']}"><br><span>${data[i]['creator']}</span></h1>
 		    		<div><img onclick="copy(${data[i]['ID']})" title="Copy ID" class="copy" src="copyW.png" alt="copy"></div>
 			    	<span>${data[i]['times'][1]['name']} - ${data[i]['times'][1]['time']}</span>
 			    </div>

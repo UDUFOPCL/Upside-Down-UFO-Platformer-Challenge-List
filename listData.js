@@ -9,10 +9,22 @@ Level data includes:
     ID : ID for the level in-game
     creator : Name of the player(s) who created the level
     verifier : Name of the player who verified the level
+    tags : List of tags for the level
+        'spam' : A large portion of the level includes spam clicking
+        'memory' : Completing the level requires learning and memorizing the correct path
+        'precise' : The level has tight timings with little room for error
+        'gimmick' : The level revolves around a unique gameplay quirk
+        'anti' : Don't flip your gravity to normal or you'll die
+        'timed' : There is a set time you must complete the level faster than
+        'needle' : The level's gameplay involves hitbox abuse and sitting inside spikes
+        'top1' : The Level used to be top 1 on the list
+        'ass' :                                                                   lmfao
     times : List of info for the leaderboard (Note: new times must be sorted manually)
         # : Position of submission on leaderboard
             name : Name of the player that completed the level
             time : The time for the completion of the level
+            video : Future leaderboard feature for a link to the completion video
+            linkText : Future leaderboard feature for the text for that link
 
 Level Template:
 
@@ -24,6 +36,7 @@ Level Template:
         ID : 123456789,
         creator : 'Creator',
         verifier : 'Verifier',
+        tags : ['spam', 'memory', 'precise', 'gimmick', 'anti', 'timed', 'needle', 'top1', 'ass']
         times : {
             1 : {
                 name : 'Name',
@@ -50,6 +63,9 @@ const data = {
         ID : 132684908,
         creator : 'Astatine16 & c0smic',
         verifier : 'Astatine16',
+        badge : './no_ufo.webp',
+        badgeInfo : 'No badge',
+        tags : ['spam', 'precise', 'needle'],
         times : {
             1 : {
                 name : 'Astatine16',
@@ -67,6 +83,9 @@ const data = {
         ID : 131366052,
         creator : 'Astatine16',
         verifier : 'Astatine16',
+        badge : './no_ufo.webp',
+        badgeInfo : 'No badge',
+        tags : ['precise', 'gimmick', 'top1'],
         times : {
             1 : {
                 name : 'Astatine16',
@@ -84,6 +103,9 @@ const data = {
         ID : 114998675,
         creator : 'ashfalcons44',
         verifier : 'ashfalcons44',
+        badge : './no_ufo.webp',
+        badgeInfo : 'No badge',
+        tags : ['spam', 'precise', 'anti', 'needle', 'top1'],
         times : {
             1 : {
                 name : 'ashfalcons44',
@@ -101,6 +123,9 @@ const data = {
         ID : 131546166,
         creator : 'ItsNoobe',
         verifier : 'ItsNoobe',
+        badge : './no_ufo.webp',
+        badgeInfo : 'No badge',
+        tags : ['spam', 'memory', 'gimmick', 'anti', 'timed'],
         times : {
             1 : {
                 name : 'Astatine16',
@@ -124,6 +149,9 @@ const data = {
         ID : 114988101,
         creator : 'tenkuyuhh',
         verifier : 'tenkuyuhh',
+        badge : './no_ufo.webp',
+        badgeInfo : 'No badge',
+        tags : ['spam', 'precise', 'needle', 'top1'],
         times : {
             1 : {
                 name : 'Astatine16',
@@ -153,6 +181,9 @@ const data = {
         ID : 114965788,
         creator : 'rush',
         verifier : 'rush',
+        badge : './no_ufo.webp',
+        badgeInfo : 'No badge',
+        tags : ['precise', 'top1',],
         times : {
             1 : {
                 name : 'rush',
@@ -165,11 +196,14 @@ const data = {
     7 : {
         name : 'run from emoji9',
         image : './Images/runFromEmoji9.webp',
-        video : 'https://www.youtube.com/embed/LlVNJfhROOI?start=553s',
+        video : 'https://www.youtube.com/embed/LlVNJfhROOI?start=579',
         description : 'udufopcl',
         ID : 119771687,
         creator : 'ItsNoobe',
         verifier : 'ItsNoobe',
+        badge : './no_ufo.webp',
+        badgeInfo : 'No badge',
+        tags : ['memory', 'gimmick', 'timed', 'ass'],
         times : {
             1 : {
                 name : 'ItsNoobe',
@@ -187,6 +221,9 @@ const data = {
         ID : 127331837,
         creator : 'ItsNoobe',
         verifier : 'ItsNoobe',
+        badge : './no_ufo.webp',
+        badgeInfo : 'No badge',
+        tags : ['precise', 'gimmick'],
         times : {
             1 : {
                 name : 'ItsNoobe',
@@ -204,6 +241,9 @@ const data = {
         ID : 114963741,
         creator : 'tenkuyuhh',
         verifier : 'tenkuyuhh',
+        badge : './no_ufo.webp',
+        badgeInfo : 'No badge',
+        tags : ['spam', 'precise', 'needle', 'top1'],
         times : {
             1 : {
                 name : 'tenkuyuhh',
@@ -227,6 +267,9 @@ const data = {
         ID : 111863467,
         creator : 'tenkuyuhh',
         verifier : 'tenkuyuhh',
+        badge : './no_ufo.webp',
+        badgeInfo : 'No badge',
+        tags : ['spam', 'precise', 'needle', 'top1'],
         times : {
             1 : {
                 name : 'tenkuyuhh',
@@ -244,6 +287,9 @@ const data = {
         ID : 114960048,
         creator : 'tenkuyuhh',
         verifier : 'tenkuyuhh',
+        badge : './no_ufo.webp',
+        badgeInfo : 'No badge',
+        tags : ['spam', 'precise', 'needle', 'top1'],
         times : {
             1 : {
                 name : 'tenkuyuhh',
@@ -267,6 +313,9 @@ const data = {
         ID : 114952534,
         creator : 'tenkuyuhh',
         verifier : 'tenkuyuhh',
+        badge : './no_ufo.webp',
+        badgeInfo : 'No badge',
+        tags : ['spam', 'precise', 'needle', 'top1'],
         times : {
             1 : {
                 name : 'MyCat223',
@@ -296,6 +345,9 @@ const data = {
         ID : 114984854,
         creator : 'CoinvesselGD',
         verifier : 'tenkuyuhh',
+        badge : './no_ufo.webp',
+        badgeInfo : 'No badge',
+        tags : ['spam', 'precise', 'needle'],
         times : {
             1 : {
                 name : 'tenkuyuhh',
@@ -313,6 +365,9 @@ const data = {
         ID : 132621790,
         creator : 'MyCat223',
         verifier : 'MyCat223',
+        badge : './no_ufo.webp',
+        badgeInfo : 'No badge',
+        tags : ['spam', 'precise', 'gimmick', 'anti'],
         times : {
             1 : {
                 name : 'MyCat223',
@@ -330,6 +385,9 @@ const data = {
         ID : 114984412,
         creator : 'tenkuyuhh',
         verifier : 'tenkuyuhh',
+        badge : './no_ufo.webp',
+        badgeInfo : 'No badge',
+        tags : ['spam', 'precise', 'needle'],
         times : {
             1 : {
                 name : 'tenkuyuhh',
@@ -347,6 +405,9 @@ const data = {
         ID : 114952847,
         creator : 'tenkuyuhh',
         verifier : 'tenkuyuhh',
+        badge : './no_ufo.webp',
+        badgeInfo : 'No badge',
+        tags : ['spam', 'needle', 'ass'],
         times : {
             1 : {
                 name : 'tenkuyuhh',
@@ -357,6 +418,26 @@ const data = {
         },
     },
     17 : {
+        name : 'nonbinaryU',
+        image : './Images/nonBU.webp',
+        video : 'https://www.youtube.com/embed/N8AVeM0rsRU',
+        description : 'i love it! gg n ew top 20 prob',
+        ID : 133039264,
+        creator : 'itzneolol',
+        verifier : 'itzneolol',
+        badge : './no_ufo.webp',
+        badgeInfo : 'No badge',
+        tags : ['precise', 'needle', 'gimmick'],
+        times : {
+            1 : {
+                name : 'itzneolol',
+                time : '15:02.679',
+                video : 'https://www.youtube.com/watch?v=N8AVeM0rsRU',
+                linkText : 'YouTube',
+            },
+        },
+    },
+    18 : {
         name : 'big yahu challenge x',
         image : './Images/bigYahuChallengeX.webp',
         video : 'https://www.youtube.com/embed/24Eku28-iUY?start=152',
@@ -364,6 +445,9 @@ const data = {
         ID : 132852634,
         creator : 'ItsNoobe',
         verifier : 'ItsNoobe',
+        badge : './no_ufo.webp',
+        badgeInfo : 'No badge',
+        tags : ['spam', 'anti'],
         times : {
             1 : {
                 name : 'ItsNoobe',
@@ -373,31 +457,37 @@ const data = {
             },
         },
     },
-    18 : {
+    19 : {
         name : 'black man chamber',
         image : './Images/blackMan.webp',
-        video : 'https://www.youtube.com/embed/3cAfx9pYWqg?start=807',
+        video : 'https://www.youtube.com/embed/3cAfx9pYWqg?start=808',
         description : 'very dark i think probably // udufopcl',
         ID : 132518590,
         creator : 'ItsNoobe',
         verifier : 'ItsNoobe',
+        badge : './no_ufo.webp',
+        badgeInfo : 'No badge',
+        tags : ['memory', 'precise', 'gimmick'],
         times : {
             1 : {
                 name : 'ItsNoobe',
                 time : '35.029',
-                video : 'https://www.youtube.com/watch?v=3cAfx9pYWqg&t=807s',
+                video : 'https://www.youtube.com/watch?v=3cAfx9pYWqg&t=808s',
                 linkText : 'YouTube',
             },
         },
     },
-    19 : {
+    20 : {
         name : 'DOG MUNCHER CORRIDOR',
         image : './Images/dogMuncher.webp',
-        video : 'https://www.youtube.com/embed/gdfQWECvAcA',
+        video : 'https://www.youtube.com/embed/gdfQWECvAcA?start=65',
         description : 'DISCRIMINATION TRILOGY FINALE // btw im half asian AND IM NOT RACIST this level is a JOKE',
         ID : 132878056,
         creator : 'ItsNoobe',
         verifier : 'ItsNoobe',
+        badge : './no_ufo.webp',
+        badgeInfo : 'No badge',
+        tags : ['spam', 'memory', 'precise', 'timed', 'needle', 'ass'],
         times : {
             1 : {
                 name : 'ItsNoobe',
@@ -407,14 +497,17 @@ const data = {
             },
         },
     },
-    20 : {
+    21 : {
         name : 'RENEWAL',
         image : './Images/renewal.webp',
-        video : 'https://www.youtube.com/embed/lpNPcDd4SX4',
+        video : 'https://www.youtube.com/embed/lpNPcDd4SX4?start=82',
         description : 'Original level by ItsNoobe (asked to upload). udufopcl',
         ID : 118612227,
         creator : 'ItsNoobe',
         verifier : 'ItsNoobe',
+        badge : './no_ufo.webp',
+        badgeInfo : 'No badge',
+        tags : ['precise', 'gimmick', 'anti', 'timed'],
         times : {
             1 : {
                 name : 'ItsNoobe',
@@ -424,7 +517,7 @@ const data = {
             },
         },
     },
-    21 : {
+    22 : {
         name : 'WIGGLECORE',
         image : './Images/wigglecore.webp',
         video : 'https://www.youtube.com/embed/wrqW7YVjQZM',
@@ -432,6 +525,9 @@ const data = {
         ID : 132848102,
         creator : 'Astatine16',
         verifier : 'Astatine16',
+        badge : './no_ufo.webp',
+        badgeInfo : 'No badge',
+        tags : ['gimmick'],
         times : {
             1 : {
                 name : 'Astatine16',
@@ -441,7 +537,7 @@ const data = {
             },
         },
     },
-    22 : {
+    23 : {
         name : '200mg Ufombien',
         image : './Images/200mgUFO.webp',
         video : 'https://www.youtube.com/embed/Fq508rkQCns',
@@ -449,6 +545,9 @@ const data = {
         ID : 132919563,
         creator : 'ItsNoobe',
         verifier : 'ItsNoobe',
+        badge : './no_ufo.webp',
+        badgeInfo : 'No badge',
+        tags : ['precise', 'gimmick', 'anti'],
         times : {
             1 : {
                 name : 'ItsNoobe',
@@ -458,7 +557,7 @@ const data = {
             },
         },
     },
-    23 : {
+    24 : {
         name : 'average udufopcl level',
         image : './Images/average.webp',
         video : 'https://www.youtube.com/embed/TMx-I8BQ094',
@@ -466,6 +565,9 @@ const data = {
         ID : 114935113,
         creator : 'MyCat223',
         verifier : 'MyCat223',
+        badge : './no_ufo.webp',
+        badgeInfo : 'No badge',
+        tags : ['spam', 'precise', 'anti', 'top1'],
         times : {
             1 : {
                 name : 'MyCat223',
@@ -487,14 +589,17 @@ const data = {
             },
         },
     },
-    24 : {
+    25 : {
         name : 'le funky ufo level',
         image : './Images/leFunky.webp',
-        video : 'https://www.youtube.com/embed/Duu-QcPfEes?start=134s',
+        video : 'https://www.youtube.com/embed/Duu-QcPfEes?start=134',
         description : 'udufopcl submission (FOR REAL THIS TIME)',
         ID : 114952921,
         creator : 'ItsNoobe',
         verifier : 'ItsNoobe',
+        badge : './no_ufo.webp',
+        badgeInfo : 'No badge',
+        tags : ['memory', 'gimmick', 'anti', 'timed'],
         times : {
             1 : {
                 name : 'rush',
@@ -510,24 +615,27 @@ const data = {
             },
         },
     },
-    25 : {
+    26 : {
         name : 'UFO Funk',
         image : './Images/ufoFunk.webp',
-        video : 'https://www.youtube.com/embed/dQw4w9WgXcQ',
-        description : '',
+        video : 'https://www.youtube.com/embed/MLCBuyU3SfU',
+        description : 'Dual Upside Down gamemode is the best gamemode',
         ID : 124325607,
         creator : 'CoinvesselGD',
         verifier : 'Astatine16',
+        badge : './no_ufo.webp',
+        badgeInfo : 'No badge',
+        tags : ['memory', 'precise', 'gimmick'],
         times : {
             1 : {
                 name : 'Astatine16',
-                time : '14.000',
-                video : '',
-                linkText : '',
+                time : '10.000',
+                video : 'https://www.youtube.com/watch?v=MLCBuyU3SfU',
+                linkText : 'YouTube',
             },
         },
     },
-    26 : {
+    27 : {
         name : 'zimbabwe',
         image : './Images/zimbabwe.webp',
         video : 'https://www.youtube.com/embed/DAkbOoqpn44',
@@ -535,6 +643,9 @@ const data = {
         ID : 115127631,
         creator : 'TheNewCodex',
         verifier : 'TheNewCodex',
+        badge : './no_ufo.webp',
+        badgeInfo : 'No badge',
+        tags : ['precise'],
         times : {
             1 : {
                 name : 'TheNewCodex',
@@ -544,7 +655,7 @@ const data = {
             },
         },
     },
-    27 : {
+    28 : {
         name : 'NullU',
         image : './Images/nullU.webp',
         video : 'https://www.youtube.com/embed/EfetjK-ymII',
@@ -552,6 +663,9 @@ const data = {
         ID : 132592367,
         creator : 'itzneolol',
         verifier : 'itzneolol',
+        badge : './no_ufo.webp',
+        badgeInfo : 'No badge',
+        tags : ['precise', 'gimmick', 'needle'],
         times : {
             1 : {
                 name : 'ItsNoobe',
@@ -567,7 +681,27 @@ const data = {
             },
         },
     },
-    28 : {
+    29 : {
+        name : 'jimbabwe 31 jaleng',
+        image : './Images/jim31j.webp',
+        video : 'https://www.youtube.com/embed/Bz0GaHFHosc',
+        description : 'level by henlox, verified by me',
+        ID : 133074868,
+        creator : 'HENLOX',
+        verifier : 'ItsNoobe',
+        badge : './no_ufo.webp',
+        badgeInfo : 'No badge',
+        tags : ['spam', 'precise'],
+        times : {
+            1 : {
+                name : 'ItsNoobe',
+                time : '31.179',
+                video : 'https://www.youtube.com/watch?v=Bz0GaHFHosc',
+                linkText : 'YouTube',
+            },
+        },
+    },
+    30 : {
         name : 'SuperMPREGixyWorld',
         image : './Images/superAwesome.webp',
         video : 'https://www.youtube.com/embed/dQw4w9WgXcQ',
@@ -575,6 +709,9 @@ const data = {
         ID : 132882031,
         creator : 'ItsNoobe',
         verifier : 'ItsNoobe',
+        badge : './no_ufo.webp',
+        badgeInfo : 'No badge',
+        tags : ['spam', 'memory', 'gimmick', 'ass'],
         times : {
             1 : {
                 name : 'ItsNoobe',
@@ -584,7 +721,7 @@ const data = {
             },
         },
     },
-    29 : {
+    31 : {
         name : 'TOOMDUDUFOIGDPCLBM',
         image : './Images/toomdud.webp',
         video : 'https://www.youtube.com/embed/k0GOhRqADJM',
@@ -592,6 +729,9 @@ const data = {
         ID : 114955327,
         creator : 'Codex',
         verifier : 'Codex',
+        badge : './no_ufo.webp',
+        badgeInfo : 'No badge',
+        tags : ['precise'],
         times : {
             1 : {
                 name : 'Codex',
@@ -616,11 +756,10 @@ const data = {
 };
 
 /* Rickroll because no video link:
-    3. BrambleIfItWasGood
     10. Suffer
     13. VSC but ufo
     15. Mycat sigma boy chal
     16. spam challenge 1
-
+    30. SuperAwesomeWorld
 */
 
