@@ -181,6 +181,7 @@ header {
 .badge {
 	aspect-ratio: 155/132;
 	height: 1.75vw;
+	filter: drop-shadow(0vw 0vw 1vw #ff800033);
 }
 
 /* Image for the level */
