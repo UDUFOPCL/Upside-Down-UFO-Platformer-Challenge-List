@@ -179,7 +179,7 @@ header {
 }
 
 .badge {
-	aspect-ratio: 1/1;
+	aspect-ratio: 155/132;
 	width: 2.5vw;
 }
 
@@ -494,4 +494,5 @@ td {
 	background-color: hsl(0, 0%, 20%, 0.125);
 	border-color: hsl(0, 0%, 0%, 0.75);
 	box-shadow:0vw 0vw 0.5vw 0vw inset hsl(0, 0%, 0%, 0.8);
+
 }
