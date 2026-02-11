@@ -180,7 +180,7 @@ header {
 
 .badge {
 	aspect-ratio: 155/132;
-	width: 2.5vw;
+	height: 2.5vw;
 }
 
 /* Image for the level */
@@ -496,3 +496,4 @@ td {
 	box-shadow:0vw 0vw 0.5vw 0vw inset hsl(0, 0%, 0%, 0.8);
 
 }
+
