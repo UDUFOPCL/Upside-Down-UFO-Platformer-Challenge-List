@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Upside Down UFO Platformer Challenge List</title>
+	<link rel="icon" href="../favicon.png" type="image/x-icon" sizes=”32x32″>
+	<link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+	<!-- Top banner -->
+	<div class="header">
+		<a href="../index.html"><img src="../favicon.png" alt="UFO" title="Home"></a>
+		<h1>Upside Down UFO Platformer Challenge List</h1>
+		<a href="https://discord.gg/QahCfq4e8Y" target="_blank"><img src="../discordW.png" alt="Discord" title="Discord"></a>
+	</div>
+
+	<!-- Copy ID popup -->
+	<header id="alert" class="hide" >
+		<h1 id="alertText">Copied ID</h1>
+	</header>
+
+	<div class="main">
+		<div class="list-container">
+			<div class="info">
+				<h1 id="name">name</h1>
+				<h2 id="people">by creator, verified by verifier</h2>
+				<hr>
+				<p id="description">" description "</p>
+				<hr>
+				<h2 id="id">ID:</h2>
+				<iframe src="" id="video"></iframe>
+				<br>
+				<div class="tagContainer" id="tags"></div>
+				<br>
+				<h3>Leaderboard</h3>
+				<table>
+					<thead>
+						<tr>
+							<th class="topLeft"></th>
+							<th>Record Holder</th>
+							<th class="topRight">Time</th>
+							<!--<th class="topRight">Video Proof</th>-->
+						</tr>
+					</thead>
+					<tbody id="myTable"></tbody>
+				</table>
+				<br><p>Want to submit a completion for the leaderboard? Joion our <a href="https://discord.gg/QahCfq4e8Y" target="_blank"><u>Discord Server!</u></a></p>
+			</div>
+		</div>
+		<!-- Self promo :) -->
+		<footer>Website made by <a href="https://www.youtube.com/@CoinvesselGD/" target="_blank"><b>CoinvesselGD</b></a></footer>
+	</div>
+
+	<!-- Imports the list information from listData.js -->
+	<script src="../listData.js"></script>
+	<script>
+		const pos = 33
+	</script>
+	<script src="levelScript.js"></script>
+</body>
+</html>

@@ -75,8 +75,13 @@ February 10, 2026: Version 3.1.1 - List placement + other stuff idk
     Updated some level tags
     Added ItsNoobe mangoa completion
 
+February 14, 2026: Version 3.1.2 - List placement
+    Placed gRilled fIsh piZZa at #26 above le funky ufo level and below average udufopcl level. This pushes jimbabwe 31 jaleng into #31
+    Found some incorrect names in the level data, so I fixed those (maily "rush: -> "yesimrush" and "Codex" -> "TheNewCodex")
+
 To do:
     Rules/About Page
     Upcoming levels
     Open verifications
     Skillsets (kinda done)
+    List Points

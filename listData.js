@@ -179,14 +179,14 @@ const data = {
         video : 'https://medal.tv/games/geometry-dash/clip/jEWoBygD38UGmfo6w?invite=cr-MSxPRkIsNTM4NjMyNTM5',
         description : 'Made to be Top 1 on the Upside Down UFO Platformer Challenge List. Verified by Me in 1316 Attempts',
         ID : 114965788,
-        creator : 'rush',
-        verifier : 'rush',
+        creator : 'yesimrush',
+        verifier : 'yesimrush',
         badge : './bronze_ufo.webp',
         badgeInfo : 'Great design',
         tags : ['precise', 'top1',],
         times : {
             1 : {
-                name : 'rush',
+                name : 'yesimrush',
                 time : '2:45.383',
                 video : '',
                 linkText : '',
@@ -616,6 +616,26 @@ const data = {
         },
     },
     26 : {
+        name : 'gRilled fIsh piZZa',
+        image : './Images/fishPizza.webp',
+        video : 'https://www.youtube.com/embed/3p0k4dCL9fw?start=46',
+        description : 'theyRe puttIng grilled fish on their piZZa!!! quick! call the italians!!!!!!!!!!!!!!!!!! type shi',
+        ID : 133367026,
+        creator : 'ItsNoobe',
+        verifier : 'ItsNoobe',
+        badge : './no_ufo.webp',
+        badgeInfo : 'No badge',
+        tags : ['gimmick'],
+        times : {
+            1 : {
+                name : 'ItsNoobe',
+                time : '12.391',
+                video : 'https://www.youtube.com/watch?v=3p0k4dCL9fw&t=46s',
+                linkText : 'YouTube',
+            },
+        },
+    },
+    27 : {
         name : 'le funky ufo level',
         image : './Images/leFunky.webp',
         video : 'https://www.youtube.com/embed/Duu-QcPfEes?start=134',
@@ -628,7 +648,7 @@ const data = {
         tags : ['memory', 'gimmick', 'anti', 'timed'],
         times : {
             1 : {
-                name : 'rush',
+                name : 'yesimrush',
                 time : '29.770',
                 video : 'https://medal.tv/games/geometry-dash/clips/jERbScA3ZLe-wJAkG?invite=cr-MSxFUjIsMjU3OTk1Mjgs',
                 linkText : 'Medal',
@@ -641,7 +661,7 @@ const data = {
             },
         },
     },
-    27 : {
+    28 : {
         name : 'UFO Funk',
         image : './Images/ufoFunk.webp',
         video : 'https://www.youtube.com/embed/MLCBuyU3SfU',
@@ -661,7 +681,7 @@ const data = {
             },
         },
     },
-    28 : {
+    29 : {
         name : 'zimbabwe',
         image : './Images/zimbabwe.webp',
         video : 'https://www.youtube.com/embed/DAkbOoqpn44',
@@ -681,7 +701,7 @@ const data = {
             },
         },
     },
-    29 : {
+    30 : {
         name : 'NullU',
         image : './Images/nullU.webp',
         video : 'https://www.youtube.com/embed/EfetjK-ymII',
@@ -707,7 +727,7 @@ const data = {
             },
         },
     },
-    30 : {
+    31 : {
         name : 'jimbabwe 31 jaleng',
         image : './Images/jim31j.webp',
         video : 'https://www.youtube.com/embed/Bz0GaHFHosc',
@@ -727,7 +747,7 @@ const data = {
             },
         },
     },
-    31 : {
+    32 : {
         name : 'SuperMPREGixyWorld',
         image : './Images/superAwesome.webp',
         video : 'https://www.youtube.com/embed/dQw4w9WgXcQ',
@@ -747,20 +767,20 @@ const data = {
             },
         },
     },
-    32 : {
+    33 : {
         name : 'TOOMDUDUFOIGDPCLBM',
         image : './Images/toomdud.webp',
         video : 'https://www.youtube.com/embed/k0GOhRqADJM',
         description : 'Top One On The Most Difficult Upside Down Unidentified Flying Object (Inside Geometry Dash) Platformer Challenge List -By Mycat. :)',
         ID : 114955327,
-        creator : 'Codex',
-        verifier : 'Codex',
+        creator : 'TheNewCodex',
+        verifier : 'TheNewCodex',
         badge : './no_ufo.webp',
         badgeInfo : 'No badge',
         tags : ['precise'],
         times : {
             1 : {
-                name : 'Codex',
+                name : 'TheNewCodex',
                 time : '9.083',
                 video : 'https://www.youtube.com/watch?v=k0GOhRqADJM',
                 linkText : 'YouTube',
