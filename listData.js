@@ -56,46 +56,6 @@ Level Template:
 */
 const data = {
     1 : {
-        name : 'GODHANDUFO',
-        image : './Images/godHandUFO.webp',
-        video : 'https://www.youtube.com/embed/JFcyY0Sv_DA',
-        description : 'TOP ONE UDUFO PLATFORMER CHALLENGE - 9887 ATTEMPTS - MADE BY ASTATINE16 AND C0SMICERR0R - GIVE PRAISE TO THE HAND!',
-        ID : 132684908,
-        creator : 'Astatine16 & c0smic',
-        verifier : 'Astatine16',
-        badge : './no_ufo.webp',
-        badgeInfo : 'No badge',
-        tags : ['spam', 'precise', 'needle'],
-        times : {
-            1 : {
-                name : 'Astatine16',
-                time : '1:09.429',
-                video : 'https://www.youtube.com/watch?v=JFcyY0Sv_DA',
-                linkText : 'YouTube',
-            },
-        },
-    },
-    2 : {
-        name : 'FALLEN ANGEL',
-        image : './Images/fallenAngel.webp',
-        video : 'https://www.youtube.com/embed/IhlrP2eI7qk',
-        description : 'Fallen Angel Industrial Plant',
-        ID : 131366052,
-        creator : 'Astatine16',
-        verifier : 'Astatine16',
-        badge : './bronze_ufo.webp',
-        badgeInfo : 'Great design',
-        tags : ['precise', 'gimmick', 'top1'],
-        times : {
-            1 : {
-                name : 'Astatine16',
-                time : '18.599',
-                video : 'https://www.youtube.com/watch?v=IhlrP2eI7qk',
-                linkText : 'YouTube',
-            },
-        },
-    },
-    3 : {
         name : 'BrambleIfItWasGood',
         image : './Images/barmbleGood.webp',
         video : 'https://www.youtube.com/embed/DTKPphzV4to',
@@ -115,7 +75,7 @@ const data = {
             },
         },
     },
-    4 : {
+    2 : {
         name : 'noobedufopc ultra',
         image : './Images/noobedufopcUltra.webp',
         video : 'https://www.youtube.com/embed/e1Ja8Zj6ggA',
@@ -128,12 +88,6 @@ const data = {
         tags : ['spam', 'memory', 'gimmick', 'anti', 'timed', 'ass'],
         times : {
             1 : {
-                name : 'Astatine16',
-                time : '37.316',
-                video : '',
-                linkText : '',
-            },
-            2 : {
                 name : 'ItsNoobe',
                 time : '39.645',
                 video : '',
@@ -141,7 +95,7 @@ const data = {
             },
         },
     },
-    5 : {
+    3 : {
         name : 'Lament',
         image : './Images/lament.webp',
         video : 'https://medal.tv/games/geometry-dash/clip/jF9HkN6obmyvvpIzm?invite=cr-MSxTTzksNTM4NjMyNTM5',
@@ -154,18 +108,12 @@ const data = {
         tags : ['spam', 'precise', 'needle', 'top1'],
         times : {
             1 : {
-                name : 'Astatine16',
-                time : '10.654',
-                video : 'https://www.youtube.com/watch?v=41ZxuByDxVo',
-                linkText : 'YouTube',
-            },
-            2 : {
                 name : 'tenkuyuhh',
                 time : '22.520',
                 video : '',
                 linkText : '',
             },
-            3 : {
+            2 : {
                 name : 'yesimrush',
                 time : '31.200',
                 video : '',
@@ -173,7 +121,7 @@ const data = {
             },
         },
     },
-    6 : {
+    4 : {
         name : 'BlUDUFObath',
         image : './Images/bath.webp',
         video : 'https://medal.tv/games/geometry-dash/clip/jEWoBygD38UGmfo6w?invite=cr-MSxPRkIsNTM4NjMyNTM5',
@@ -193,7 +141,7 @@ const data = {
             },
         },
     },
-    7 : {
+    5 : {
         name : 'spectralabyrinth',
         image : './Images/spectralab.webp',
         video : 'https://www.youtube.com/embed/b8Ms5OxYNhA?start=319',
@@ -213,7 +161,7 @@ const data = {
             },
         },
     },
-    8 : {
+    6 : {
         name : 'run from emoji9',
         image : './Images/runFromEmoji9.webp',
         video : 'https://www.youtube.com/embed/LlVNJfhROOI?start=579',
@@ -233,7 +181,7 @@ const data = {
             },
         },
     },
-    9 : {
+    7 : {
         name : 'launchpad ufobyrinth',
         image : './Images/launchpad.webp',
         video : 'https://www.youtube.com/embed/ghrn4ZxM8DI',
@@ -253,7 +201,7 @@ const data = {
             },
         },
     },
-    10 : {
+    8 : {
         name : 'Fever',
         image : './Images/fever.webp',
         video : 'https://medal.tv/games/geometry-dash/clip/jF91etS4R2m1olOgZ?invite=cr-MSxLMmssNTM4NjMyNTM5',
@@ -279,7 +227,7 @@ const data = {
             }
         },
     },
-    11 : {
+    9 : {
         name : 'Suffer',
         image : './Images/suffer.webp',
         video : 'https://www.youtube.com/embed/dQw4w9WgXcQ',
@@ -299,7 +247,7 @@ const data = {
             },
         },
     },
-    12 : {
+    10 : {
         name : 'agony',
         image : './Images/agony.webp',
         video : 'https://medal.tv/games/geometry-dash/clip/jERuUdrH6uF8t9zd5?invite=cr-MSxUM3csNTM4NjMyNTM5',
@@ -325,7 +273,7 @@ const data = {
             },
         },
     },
-    13 : {
+    11 : {
         name : 'mangoa',
         image : './Images/mangoa.webp',
         video : 'https://medal.tv/games/geometry-dash/clip/jEMsXCGKH26TVB45a?invite=cr-MSxCbHEsNTM4NjMyNTM5',
@@ -363,7 +311,7 @@ const data = {
             }
         },
     },
-    14 : {
+    12 : {
         name : 'VSC but ufo',
         image : './Images/vscUfo.webp',
         video : 'https://www.youtube.com/embed/dQw4w9WgXcQ',
@@ -383,7 +331,7 @@ const data = {
             },
         },
     },
-    15 : {
+    13 : {
         name : 'AntiAntigravity',
         image : './Images/antiAntigravity.webp',
         video : 'https://www.youtube.com/embed/YbgwCut3BFc',
@@ -403,7 +351,7 @@ const data = {
             },
         },
     },
-    16 : {
+    14 : {
         name : 'Mycat sigma boy chal',
         image : './Images/sigmaBoy.webp',
         video : 'https://www.youtube.com/embed/dQw4w9WgXcQ',
@@ -423,7 +371,7 @@ const data = {
             },
         },
     },
-    17 : {
+    15 : {
         name : 'spam challenge 1',
         image : './Images/spam1.webp',
         video : 'https://www.youtube.com/embed/dQw4w9WgXcQ',
@@ -443,7 +391,7 @@ const data = {
             },
         },
     },
-    18 : {
+    16 : {
         name : 'nonbinaryU',
         image : './Images/nonBU.webp',
         video : 'https://www.youtube.com/embed/N8AVeM0rsRU',
@@ -463,7 +411,7 @@ const data = {
             },
         },
     },
-    19 : {
+    17 : {
         name : 'big yahu challenge x',
         image : './Images/bigYahuChallengeX.webp',
         video : 'https://www.youtube.com/embed/24Eku28-iUY?start=152',
@@ -483,7 +431,7 @@ const data = {
             },
         },
     },
-    20 : {
+    18 : {
         name : 'black man chamber',
         image : './Images/blackMan.webp',
         video : 'https://www.youtube.com/embed/3cAfx9pYWqg?start=808',
@@ -503,7 +451,7 @@ const data = {
             },
         },
     },
-    21 : {
+    19 : {
         name : 'DOG MUNCHER CORRIDOR',
         image : './Images/dogMuncher.webp',
         video : 'https://www.youtube.com/embed/gdfQWECvAcA?start=65',
@@ -523,7 +471,7 @@ const data = {
             },
         },
     },
-    22 : {
+    20 : {
         name : 'RENEWAL',
         image : './Images/renewal.webp',
         video : 'https://www.youtube.com/embed/lpNPcDd4SX4?start=82',
@@ -543,7 +491,7 @@ const data = {
             },
         },
     },
-    23 : {
+    21 : {
         name : 'WIGGLECORE',
         image : './Images/wigglecore.webp',
         video : 'https://www.youtube.com/embed/wrqW7YVjQZM',
@@ -563,7 +511,7 @@ const data = {
             },
         },
     },
-    24 : {
+    22 : {
         name : '200mg Ufombien',
         image : './Images/200mgUFO.webp',
         video : 'https://www.youtube.com/embed/Fq508rkQCns',
@@ -583,7 +531,7 @@ const data = {
             },
         },
     },
-    25 : {
+    23 : {
         name : 'average udufopcl level',
         image : './Images/average.webp',
         video : 'https://www.youtube.com/embed/TMx-I8BQ094',
@@ -615,7 +563,7 @@ const data = {
             },
         },
     },
-    26 : {
+    24 : {
         name : 'gRilled fIsh piZZa',
         image : './Images/fishPizza.webp',
         video : 'https://www.youtube.com/embed/3p0k4dCL9fw?start=46',
@@ -635,7 +583,7 @@ const data = {
             },
         },
     },
-    27 : {
+    25 : {
         name : 'le funky ufo level',
         image : './Images/leFunky.webp',
         video : 'https://www.youtube.com/embed/Duu-QcPfEes?start=134',
@@ -661,27 +609,7 @@ const data = {
             },
         },
     },
-    28 : {
-        name : 'UFO Funk',
-        image : './Images/ufoFunk.webp',
-        video : 'https://www.youtube.com/embed/MLCBuyU3SfU',
-        description : 'Dual Upside Down gamemode is the best gamemode',
-        ID : 124325607,
-        creator : 'CoinvesselGD',
-        verifier : 'Astatine16',
-        badge : './no_ufo.webp',
-        badgeInfo : 'No badge',
-        tags : ['memory', 'precise', 'gimmick'],
-        times : {
-            1 : {
-                name : 'Astatine16',
-                time : '10.000',
-                video : 'https://www.youtube.com/watch?v=MLCBuyU3SfU',
-                linkText : 'YouTube',
-            },
-        },
-    },
-    29 : {
+    26 : {
         name : 'zimbabwe',
         image : './Images/zimbabwe.webp',
         video : 'https://www.youtube.com/embed/DAkbOoqpn44',
@@ -701,7 +629,7 @@ const data = {
             },
         },
     },
-    30 : {
+    27 : {
         name : 'NullU',
         image : './Images/nullU.webp',
         video : 'https://www.youtube.com/embed/EfetjK-ymII',
@@ -727,7 +655,7 @@ const data = {
             },
         },
     },
-    31 : {
+    28 : {
         name : 'jimbabwe 31 jaleng',
         image : './Images/jim31j.webp',
         video : 'https://www.youtube.com/embed/Bz0GaHFHosc',
@@ -747,7 +675,7 @@ const data = {
             },
         },
     },
-    32 : {
+    29 : {
         name : 'SuperMPREGixyWorld',
         image : './Images/superAwesome.webp',
         video : 'https://www.youtube.com/embed/dQw4w9WgXcQ',
@@ -767,7 +695,7 @@ const data = {
             },
         },
     },
-    33 : {
+    30 : {
         name : 'TOOMDUDUFOIGDPCLBM',
         image : './Images/toomdud.webp',
         video : 'https://www.youtube.com/embed/k0GOhRqADJM',
@@ -809,3 +737,83 @@ const data = {
     30. SuperAwesomeWorld
 */
 
+/* Hacked Archive
+    1 : {
+        name : 'GODHANDUFO',
+        image : './Images/godHandUFO.webp',
+        video : 'https://www.youtube.com/embed/JFcyY0Sv_DA',
+        description : 'TOP ONE UDUFO PLATFORMER CHALLENGE - 9887 ATTEMPTS - MADE BY ASTATINE16 AND C0SMICERR0R - GIVE PRAISE TO THE HAND!',
+        ID : 132684908,
+        creator : 'Astatine16 & c0smic',
+        verifier : 'Astatine16',
+        badge : './no_ufo.webp',
+        badgeInfo : 'No badge',
+        tags : ['spam', 'precise', 'needle'],
+        times : {
+            1 : {
+                name : 'Astatine16',
+                time : '1:09.429',
+                video : 'https://www.youtube.com/watch?v=JFcyY0Sv_DA',
+                linkText : 'YouTube',
+            },
+        },
+    },
+
+    2 : {
+        name : 'FALLEN ANGEL',
+        image : './Images/fallenAngel.webp',
+        video : 'https://www.youtube.com/embed/IhlrP2eI7qk',
+        description : 'Fallen Angel Industrial Plant',
+        ID : 131366052,
+        creator : 'Astatine16',
+        verifier : 'Astatine16',
+        badge : './bronze_ufo.webp',
+        badgeInfo : 'Great design',
+        tags : ['precise', 'gimmick', 'top1'],
+        times : {
+            1 : {
+                name : 'Astatine16',
+                time : '18.599',
+                video : 'https://www.youtube.com/watch?v=IhlrP2eI7qk',
+                linkText : 'YouTube',
+            },
+        },
+    },
+
+        noobedufopc ultra
+            1 : {
+                name : 'Astatine16',
+                time : '37.316',
+                video : '',
+                linkText : '',
+            },
+
+        Lament
+            1 : {
+                name : 'Astatine16',
+                time : '10.654',
+                video : 'https://www.youtube.com/watch?v=41ZxuByDxVo',
+                linkText : 'YouTube',
+            },
+
+    28 : {
+        name : 'UFO Funk',
+        image : './Images/ufoFunk.webp',
+        video : 'https://www.youtube.com/embed/MLCBuyU3SfU',
+        description : 'Dual Upside Down gamemode is the best gamemode',
+        ID : 124325607,
+        creator : 'CoinvesselGD',
+        verifier : 'Astatine16',
+        badge : './no_ufo.webp',
+        badgeInfo : 'No badge',
+        tags : ['memory', 'precise', 'gimmick'],
+        times : {
+            1 : {
+                name : 'Astatine16',
+                time : '10.000',
+                video : 'https://www.youtube.com/watch?v=MLCBuyU3SfU',
+                linkText : 'YouTube',
+            },
+        },
+    },
+*/

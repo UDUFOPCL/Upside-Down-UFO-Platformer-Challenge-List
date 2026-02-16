@@ -78,6 +78,14 @@ February 10, 2026: Version 3.1.1 - List placement + other stuff idk
 February 14, 2026: Version 3.1.2 - List placement
     Placed gRilled fIsh piZZa at #26 above le funky ufo level and below average udufopcl level. This pushes jimbabwe 31 jaleng into #31
     Found some incorrect names in the level data, so I fixed those (maily "rush: -> "yesimrush" and "Codex" -> "TheNewCodex")
+    
+February 16, 2026: Version 3.1.3 - List removals
+    Turns out Astatine16 hacked literally everything except wigglecore
+    Removed GODHANDUFO
+    Removed FALLEN ANGEL
+    Removed Future UFO
+    Removed Astatine16's record for noobedufopc ultra
+    Removed Astatine16's record for Lament
 
 To do:
     Rules/About Page
