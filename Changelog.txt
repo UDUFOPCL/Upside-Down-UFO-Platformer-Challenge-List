@@ -87,6 +87,14 @@ February 16, 2026: Version 3.1.3 - List removals
     Removed Astatine16's record for noobedufopc ultra
     Removed Astatine16's record for Lament
 
+February 17, 2026: Version 3.1.4 - List placements & movements
+    Placed Altars Of Ufostasy at #2 above noobedufopc ultra and below BrambleIfItWasGood
+    Placed FINAL UFO at #30 above SuperMPREGixyWorld and below jimbabwe 31 jaleng
+    Placed formosa ufo at #33 below TOOMDUDUFOIGDPCLBM
+    Moved spectralabyrinth to #10
+    Moved launchpad ufobyrinth to #13
+    Added TheNewCodex and ItsNoobe completions
+
 To do:
     Rules/About Page
     Upcoming levels
