@@ -57,7 +57,7 @@ Level Template:
 const data = {
     1 : {
         name : 'Acheron',
-        image : './Images/barmbleGood.webp',
+        image : './Images/acheron.webp',
         video : 'https://www.youtube.com/embed/sBKR6aUorzA',
         description : 'verified by zoink. "get ricch or die trying" -50 cent',
         ID : 73667628,
