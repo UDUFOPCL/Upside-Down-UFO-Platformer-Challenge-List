@@ -95,6 +95,9 @@ February 17, 2026: Version 3.1.4 - List placements & movements
     Moved launchpad ufobyrinth to #13
     Added TheNewCodex and ItsNoobe completions
 
+April 1, 2026: Version 6.7 - Pretty mutch everything
+    Made the UDUFOPCL the greatest website ever :3
+
 To do:
     Rules/About Page
     Upcoming levels

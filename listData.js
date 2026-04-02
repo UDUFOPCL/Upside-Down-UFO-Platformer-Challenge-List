@@ -56,6 +56,26 @@ Level Template:
 */
 const data = {
     1 : {
+        name : 'Acheron',
+        image : './Images/barmbleGood.webp',
+        video : 'https://www.youtube.com/embed/sBKR6aUorzA',
+        description : 'verified by zoink. "get ricch or die trying" -50 cent',
+        ID : 73667628,
+        creator : 'ryamu',
+        verifier : 'zoink',
+        badge : './gold_ufo.webp',
+        badgeInfo : 'Great creativity, gameplay, and design',
+        tags : ['spam', 'memory', 'precise', 'gimmick', 'anti', 'timed', 'needle', 'top1', 'ass'],
+        times : {
+            1 : {
+                name : 'Zoink',
+                time : '3:43.067',
+                video : 'https://www.youtube.com/watch?v=sBKR6aUorzA',
+                linkText : 'YouTube',
+            },
+        },
+    },
+    2 : {
         name : 'BrambleIfItWasGood',
         image : './Images/barmbleGood.webp',
         video : 'https://www.youtube.com/embed/DTKPphzV4to',
@@ -75,7 +95,7 @@ const data = {
             },
         },
     },
-    2 : {
+    3 : {
         name : 'Altars Of Ufostasy',
         image : './Images/altarsOfUfo.webp',
         video : 'https://www.youtube.com/embed/GUS34X4SV4I',
@@ -95,7 +115,7 @@ const data = {
             },
         },
     },
-    3 : {
+    4 : {
         name : 'noobedufopc ultra',
         image : './Images/noobedufopcUltra.webp',
         video : 'https://www.youtube.com/embed/e1Ja8Zj6ggA',
@@ -115,7 +135,7 @@ const data = {
             },
         },
     },
-    4 : {
+    5 : {
         name : 'Lament',
         image : './Images/lament.webp',
         video : 'https://medal.tv/games/geometry-dash/clip/jF9HkN6obmyvvpIzm?invite=cr-MSxTTzksNTM4NjMyNTM5',
@@ -141,7 +161,7 @@ const data = {
             },
         },
     },
-    5 : {
+    6 : {
         name : 'BlUDUFObath',
         image : './Images/bath.webp',
         video : 'https://medal.tv/games/geometry-dash/clip/jEWoBygD38UGmfo6w?invite=cr-MSxPRkIsNTM4NjMyNTM5',
@@ -161,7 +181,7 @@ const data = {
             },
         },
     },
-    6 : {
+    7 : {
         name : 'run from emoji9',
         image : './Images/runFromEmoji9.webp',
         video : 'https://www.youtube.com/embed/LlVNJfhROOI?start=579',
@@ -181,7 +201,7 @@ const data = {
             },
         },
     },
-    7 : {
+    8 : {
         name : 'Fever',
         image : './Images/fever.webp',
         video : 'https://medal.tv/games/geometry-dash/clip/jF91etS4R2m1olOgZ?invite=cr-MSxLMmssNTM4NjMyNTM5',
@@ -207,7 +227,7 @@ const data = {
             }
         },
     },
-    8 : {
+    9 : {
         name : 'Suffer',
         image : './Images/suffer.webp',
         video : 'https://www.youtube.com/embed/dQw4w9WgXcQ',
@@ -227,7 +247,7 @@ const data = {
             },
         },
     },
-    9 : {
+    10 : {
         name : 'agony',
         image : './Images/agony.webp',
         video : 'https://medal.tv/games/geometry-dash/clip/jERuUdrH6uF8t9zd5?invite=cr-MSxUM3csNTM4NjMyNTM5',
@@ -253,7 +273,7 @@ const data = {
             },
         },
     },
-    10 : {
+    11 : {
         name : 'spectralabyrinth',
         image : './Images/spectralab.webp',
         video : 'https://www.youtube.com/embed/b8Ms5OxYNhA?start=319',
@@ -273,7 +293,7 @@ const data = {
             },
         },
     },
-    11 : {
+    12 : {
         name : 'mangoa',
         image : './Images/mangoa.webp',
         video : 'https://medal.tv/games/geometry-dash/clip/jEMsXCGKH26TVB45a?invite=cr-MSxCbHEsNTM4NjMyNTM5',
@@ -311,7 +331,7 @@ const data = {
             }
         },
     },
-    12 : {
+    13 : {
         name : 'VSC but ufo',
         image : './Images/vscUfo.webp',
         video : 'https://www.youtube.com/embed/dQw4w9WgXcQ',
@@ -331,7 +351,7 @@ const data = {
             },
         },
     },
-    13 : {
+    14 : {
         name : 'launchpad ufobyrinth',
         image : './Images/launchpad.webp',
         video : 'https://www.youtube.com/embed/ghrn4ZxM8DI',
@@ -351,7 +371,7 @@ const data = {
             },
         },
     },
-    14 : {
+    15 : {
         name : 'AntiAntigravity',
         image : './Images/antiAntigravity.webp',
         video : 'https://www.youtube.com/embed/YbgwCut3BFc',
@@ -371,7 +391,7 @@ const data = {
             },
         },
     },
-    15 : {
+    16 : {
         name : 'Mycat sigma boy chal',
         image : './Images/sigmaBoy.webp',
         video : 'https://www.youtube.com/embed/dQw4w9WgXcQ',
@@ -391,7 +411,7 @@ const data = {
             },
         },
     },
-    16 : {
+    17 : {
         name : 'spam challenge 1',
         image : './Images/spam1.webp',
         video : 'https://www.youtube.com/embed/dQw4w9WgXcQ',
@@ -411,7 +431,7 @@ const data = {
             },
         },
     },
-    17 : {
+    18 : {
         name : 'nonbinaryU',
         image : './Images/nonBU.webp',
         video : 'https://www.youtube.com/embed/N8AVeM0rsRU',
@@ -431,7 +451,7 @@ const data = {
             },
         },
     },
-    18 : {
+    19 : {
         name : 'big yahu challenge x',
         image : './Images/bigYahuChallengeX.webp',
         video : 'https://www.youtube.com/embed/24Eku28-iUY?start=152',
@@ -451,7 +471,7 @@ const data = {
             },
         },
     },
-    19 : {
+    20 : {
         name : 'black man chamber',
         image : './Images/blackMan.webp',
         video : 'https://www.youtube.com/embed/3cAfx9pYWqg?start=808',
@@ -471,7 +491,7 @@ const data = {
             },
         },
     },
-    20 : {
+    21 : {
         name : 'DOG MUNCHER CORRIDOR',
         image : './Images/dogMuncher.webp',
         video : 'https://www.youtube.com/embed/gdfQWECvAcA?start=65',
@@ -491,7 +511,7 @@ const data = {
             },
         },
     },
-    21 : {
+    22 : {
         name : 'RENEWAL',
         image : './Images/renewal.webp',
         video : 'https://www.youtube.com/embed/lpNPcDd4SX4?start=82',
@@ -511,7 +531,7 @@ const data = {
             },
         },
     },
-    22 : {
+    23 : {
         name : 'WIGGLECORE',
         image : './Images/wigglecore.webp',
         video : 'https://www.youtube.com/embed/wrqW7YVjQZM',
@@ -531,7 +551,7 @@ const data = {
             },
         },
     },
-    23 : {
+    24 : {
         name : '200mg Ufombien',
         image : './Images/200mgUFO.webp',
         video : 'https://www.youtube.com/embed/Fq508rkQCns',
@@ -557,7 +577,7 @@ const data = {
             },
         },
     },
-    24 : {
+    25 : {
         name : 'average udufopcl level',
         image : './Images/average.webp',
         video : 'https://www.youtube.com/embed/TMx-I8BQ094',
@@ -589,7 +609,7 @@ const data = {
             },
         },
     },
-    25 : {
+    26 : {
         name : 'gRilled fIsh piZZa',
         image : './Images/fishPizza.webp',
         video : 'https://www.youtube.com/embed/3p0k4dCL9fw?start=46',
@@ -609,7 +629,7 @@ const data = {
             },
         },
     },
-    26 : {
+    27 : {
         name : 'le funky ufo level',
         image : './Images/leFunky.webp',
         video : 'https://www.youtube.com/embed/Duu-QcPfEes?start=134',
@@ -635,7 +655,7 @@ const data = {
             },
         },
     },
-    27 : {
+    28 : {
         name : 'zimbabwe',
         image : './Images/zimbabwe.webp',
         video : 'https://www.youtube.com/embed/DAkbOoqpn44',
@@ -655,7 +675,7 @@ const data = {
             },
         },
     },
-    28 : {
+    29 : {
         name : 'NullU',
         image : './Images/nullU.webp',
         video : 'https://www.youtube.com/embed/EfetjK-ymII',
@@ -681,7 +701,7 @@ const data = {
             },
         },
     },
-    29 : {
+    30 : {
         name : 'jimbabwe 31 jaleng',
         image : './Images/jim31j.webp',
         video : 'https://www.youtube.com/embed/Bz0GaHFHosc',
@@ -701,7 +721,7 @@ const data = {
             },
         },
     },
-    30 : {
+    31 : {
         name : 'FINAL UFO',
         image : './Images/finalUfo.webp',
         video : 'https://www.youtube.com/embed/QcZk1NRBKY0',
@@ -727,7 +747,7 @@ const data = {
             },
         },
     },
-    31 : {
+    32 : {
         name : 'SuperMPREGixyWorld',
         image : './Images/superAwesome.webp',
         video : 'https://www.youtube.com/embed/8hZBcaPDfmI',
@@ -753,7 +773,7 @@ const data = {
             },
         },
     },
-    32 : {
+    33 : {
         name : 'TOOMDUDUFOIGDPCLBM',
         image : './Images/toomdud.webp',
         video : 'https://www.youtube.com/embed/k0GOhRqADJM',
@@ -785,7 +805,7 @@ const data = {
             },
         },
     },
-    33 : {
+    34 : {
         name : 'formosa ufo',
         image : './Images/formosaUfo.webp',
         video : 'https://www.youtube.com/embed/c_ds_fJbA8g',
